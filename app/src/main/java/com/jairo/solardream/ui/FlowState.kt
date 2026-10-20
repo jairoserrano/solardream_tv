@@ -20,6 +20,7 @@ data class FlowState(
     val dimmed: Boolean,
     val footer: String,
     val corner: String,
+    val todayText: String = "—",
 ) {
     companion object {
         const val ACTIVE_W = 5
@@ -80,6 +81,7 @@ data class FlowState(
                     "Sin conexión · última lectura a las $time"
                 },
                 corner = time,
+                todayText = "${String.format(ES, "%.1f", s.producedTodayWh / 1000.0)} kWh",
             )
         }
 
