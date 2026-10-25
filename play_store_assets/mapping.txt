@@ -1,0 +1,2098 @@
+# compiler: R8
+# compiler_version: 8.7.18
+# min_api: 31
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 7c3d10f
+# pg_map_hash: SHA-256 7c3d10f889447649d40dd8a4ddfa83f57e7febca87ce7902e0577659fbb340ed
+dev.jairoserrano.solardream.DtuSettings -> a.a:
+# {"id":"sourceFile","fileName":"DtuSettings.kt"}
+    5:10:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):59:59 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll/c;)Ljava/lang/Class;"}
+    11:17:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):60:60 -> a
+    18:40:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):62:62 -> a
+    41:44:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):66:66 -> a
+    45:53:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):62:62 -> a
+    54:56:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):68:68 -> a
+    57:65:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):62:62 -> a
+    66:68:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):63:63 -> a
+    69:77:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):62:62 -> a
+    78:80:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):71:71 -> a
+    81:89:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):62:62 -> a
+    90:92:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):69:69 -> a
+    93:101:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):62:62 -> a
+    102:104:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):64:64 -> a
+    105:113:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):62:62 -> a
+    114:116:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):65:65 -> a
+    117:125:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):62:62 -> a
+    126:128:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):67:67 -> a
+    129:137:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):62:62 -> a
+    138:141:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):70:70 -> a
+    5:29:int kotlin.internal.ProgressionUtilKt.mod(int,int):10:10 -> b
+    5:29:int kotlin.internal.ProgressionUtilKt.differenceModulo(int,int,int):21 -> b
+    5:29:int kotlin.internal.ProgressionUtilKt.getProgressionLastElement(int,int,int):46 -> b
+    30:48:int kotlin.internal.ProgressionUtilKt.mod(int,int):10:10 -> b
+    30:48:int kotlin.internal.ProgressionUtilKt.differenceModulo(int,int,int):21 -> b
+    30:48:int kotlin.internal.ProgressionUtilKt.getProgressionLastElement(int,int,int):47 -> b
+    49:56:int kotlin.internal.ProgressionUtilKt.getProgressionLastElement(int,int,int):48:48 -> b
+    0:6:java.lang.String host(android.content.Context):21:21 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/content/ContextWrapper;)Ljava/lang/String;"}
+    7:26:java.lang.String host(android.content.Context):22:22 -> c
+    27:38:java.lang.String host(android.content.Context):25:25 -> c
+    39:44:java.lang.Object kotlin.ResultKt.createFailure(java.lang.Throwable):122:122 -> c
+    39:44:java.lang.String host(android.content.Context):24 -> c
+    45:49:boolean kotlin.Result.isFailure-impl(java.lang.Object):38:38 -> c
+    45:49:java.lang.String host(android.content.Context):26 -> c
+    50:66:java.lang.String host(android.content.Context):26:26 -> c
+    0:25:int kotlin.collections.MapsKt__MapsJVMKt.mapCapacity(int):150:150 -> d
+    0:27:int kotlin.math.MathKt__MathJVMKt.roundToInt(double):619:619 -> e
+    28:33:int kotlin.math.MathKt__MathJVMKt.roundToInt(double):622:622 -> e
+    34:41:int kotlin.math.MathKt__MathJVMKt.roundToInt(double):619:619 -> e
+dev.jairoserrano.solardream.EnergyPoller -> a.e:
+# {"id":"sourceFile","fileName":"EnergyPoller.kt"}
+    dev.jairoserrano.solardream.ui.FlowView view -> a
+    dev.jairoserrano.solardream.dtu.DtuClient client -> b
+    dev.jairoserrano.solardream.model.EnergyModel model -> c
+    dev.jairoserrano.solardream.model.ConnectionTracker tracker -> d
+    android.os.Handler main -> e
+    java.text.SimpleDateFormat timeFormat -> f
+    java.util.concurrent.ScheduledExecutorService executor -> g
+    5:9:void <init>(java.lang.String,dev.jairoserrano.solardream.ui.FlowView):20:20 -> <init>
+    10:26:void <init>(java.lang.String,dev.jairoserrano.solardream.ui.FlowView):21:21 -> <init>
+    27:39:void <init>(java.lang.String,dev.jairoserrano.solardream.ui.FlowView):22:22 -> <init>
+    40:49:void <init>(java.lang.String,dev.jairoserrano.solardream.ui.FlowView):23:23 -> <init>
+    50:60:void <init>(java.lang.String,dev.jairoserrano.solardream.ui.FlowView):24:24 -> <init>
+    61:72:void <init>(java.lang.String,dev.jairoserrano.solardream.ui.FlowView):25:25 -> <init>
+    1:6:void start():30:30 -> a
+    7:10:void start():31:31 -> a
+    11:25:void start():32:32 -> a
+    26:27:void start():31:31 -> a
+    28:32:void start():34:34 -> a
+    1:11:void stop():38:38 -> b
+    12:13:void stop():39:39 -> b
+    14:17:void stop():40:40 -> b
+dev.jairoserrano.solardream.EnergyPoller$$ExternalSyntheticLambda0 -> a.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    dev.jairoserrano.solardream.EnergyPoller dev.jairoserrano.solardream.EnergyPoller$$InternalSyntheticLambda$1$753d6524fbb4f19b96abaf56fb254a240621481820b110390d2b223403a1d0d6$0.f$0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/e;"}
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:5:void a.EnergyPoller$$ExternalSyntheticLambda0.<init>(a.EnergyPoller):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/e;)V"}
+    0:1:void dev.jairoserrano.solardream.EnergyPoller.pollOnce():43:43 -> run
+    0:1:void dev.jairoserrano.solardream.EnergyPoller.start$lambda$1$lambda$0(dev.jairoserrano.solardream.EnergyPoller):32 -> run
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()V"}
+    2:5:void dev.jairoserrano.solardream.EnergyPoller.pollOnce():43:43 -> run
+    2:5:void dev.jairoserrano.solardream.EnergyPoller.start$lambda$1$lambda$0(dev.jairoserrano.solardream.EnergyPoller):32 -> run
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    6:7:void dev.jairoserrano.solardream.EnergyPoller.pollOnce():43:43 -> run
+    6:7:void dev.jairoserrano.solardream.EnergyPoller.start$lambda$1$lambda$0(dev.jairoserrano.solardream.EnergyPoller):32 -> run
+    8:19:void dev.jairoserrano.solardream.EnergyPoller.pollOnce():45:45 -> run
+    8:19:void dev.jairoserrano.solardream.EnergyPoller.start$lambda$1$lambda$0(dev.jairoserrano.solardream.EnergyPoller):32 -> run
+    20:30:void dev.jairoserrano.solardream.EnergyPoller.pollOnce():46:46 -> run
+    20:30:void dev.jairoserrano.solardream.EnergyPoller.start$lambda$1$lambda$0(dev.jairoserrano.solardream.EnergyPoller):32 -> run
+    31:49:void dev.jairoserrano.solardream.EnergyPoller.pollOnce():48:48 -> run
+    31:49:void dev.jairoserrano.solardream.EnergyPoller.start$lambda$1$lambda$0(dev.jairoserrano.solardream.EnergyPoller):32 -> run
+    50:52:void dev.jairoserrano.solardream.EnergyPoller.pollOnce():49:49 -> run
+    50:52:void dev.jairoserrano.solardream.EnergyPoller.start$lambda$1$lambda$0(dev.jairoserrano.solardream.EnergyPoller):32 -> run
+    53:76:void dev.jairoserrano.solardream.EnergyPoller.pollOnce():51:51 -> run
+    53:76:void dev.jairoserrano.solardream.EnergyPoller.start$lambda$1$lambda$0(dev.jairoserrano.solardream.EnergyPoller):32 -> run
+    77:87:void dev.jairoserrano.solardream.EnergyPoller.pollOnce():52:52 -> run
+    77:87:void dev.jairoserrano.solardream.EnergyPoller.start$lambda$1$lambda$0(dev.jairoserrano.solardream.EnergyPoller):32 -> run
+    88:109:void dev.jairoserrano.solardream.EnergyPoller.pollOnce():54:54 -> run
+    88:109:void dev.jairoserrano.solardream.EnergyPoller.start$lambda$1$lambda$0(dev.jairoserrano.solardream.EnergyPoller):32 -> run
+dev.jairoserrano.solardream.EnergyPoller$$ExternalSyntheticLambda1 -> a.c:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    dev.jairoserrano.solardream.EnergyPoller dev.jairoserrano.solardream.EnergyPoller$$InternalSyntheticLambda$2$750a7295aa82062ef284a594bc8ab98c823c9d472e92f0210f268b91f0967273$0.f$0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/e;"}
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:5:void a.EnergyPoller$$ExternalSyntheticLambda1.<init>(a.EnergyPoller):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/e;)V"}
+    6:24:java.lang.String dev.jairoserrano.solardream.EnergyPoller.pollOnce$lambda$2(dev.jairoserrano.solardream.EnergyPoller,long):51:51 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;)Ljava/lang/String;"}
+dev.jairoserrano.solardream.EnergyPoller$$ExternalSyntheticLambda2 -> a.d:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    dev.jairoserrano.solardream.EnergyPoller dev.jairoserrano.solardream.EnergyPoller$$InternalSyntheticLambda$2$750a7295aa82062ef284a594bc8ab98c823c9d472e92f0210f268b91f0967273$1.f$0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/e;"}
+      # {"id":"com.android.tools.r8.synthesized"}
+    dev.jairoserrano.solardream.ui.FlowState dev.jairoserrano.solardream.EnergyPoller$$InternalSyntheticLambda$2$750a7295aa82062ef284a594bc8ab98c823c9d472e92f0210f268b91f0967273$1.f$1 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:7:void a.EnergyPoller$$ExternalSyntheticLambda2.<init>(a.EnergyPoller,dev.jairoserrano.solardream.ui.FlowState):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/e;Ldev/jairoserrano/solardream/ui/FlowState;)V"}
+    0:9:void dev.jairoserrano.solardream.EnergyPoller.pollOnce$lambda$3(dev.jairoserrano.solardream.EnergyPoller,dev.jairoserrano.solardream.ui.FlowState):52:52 -> run
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()V"}
+dev.jairoserrano.solardream.MainActivity -> dev.jairoserrano.solardream.MainActivity:
+# {"id":"sourceFile","fileName":"MainActivity.kt"}
+    dev.jairoserrano.solardream.ui.FlowView flowView -> a
+    dev.jairoserrano.solardream.EnergyPoller poller -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/e;"}
+    int $r8$clinit -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:3:void <init>():22:22 -> <init>
+    0:3:void showSettingsDialog():74:74 -> a
+    4:8:void showSettingsDialog():75:75 -> a
+    9:11:void showSettingsDialog():76:76 -> a
+    12:18:void showSettingsDialog():77:77 -> a
+    19:21:void showSettingsDialog():78:78 -> a
+    22:36:void showSettingsDialog():79:79 -> a
+    37:39:void showSettingsDialog():80:80 -> a
+    40:47:void showSettingsDialog():83:83 -> a
+    48:58:void showSettingsDialog():84:84 -> a
+    59:66:void showSettingsDialog():85:85 -> a
+    67:73:void showSettingsDialog():86:86 -> a
+    74:89:void showSettingsDialog():87:87 -> a
+    90:105:void showSettingsDialog():95:95 -> a
+    106:114:void showSettingsDialog():102:102 -> a
+    115:118:void showSettingsDialog():103:103 -> a
+    0:6:void startPoller():68:68 -> b
+    7:10:void startPoller():69:69 -> b
+    11:25:void startPoller():70:70 -> b
+    26:27:void onStop():54:54 -> b
+    26:27:void kotlin.jvm.internal.Intrinsics.throwUninitializedProperty(java.lang.String):54 -> b
+    26:27:void kotlin.jvm.internal.Intrinsics.throwUninitializedPropertyAccessException(java.lang.String):58 -> b
+    26:27:void startPoller():70 -> b
+    28:32:void kotlin.UninitializedPropertyAccessException.<init>(java.lang.String):11:11 -> b
+    28:32:void kotlin.jvm.internal.Intrinsics.throwUninitializedProperty(java.lang.String):54 -> b
+    28:32:void kotlin.jvm.internal.Intrinsics.throwUninitializedPropertyAccessException(java.lang.String):58 -> b
+    28:32:void startPoller():70 -> b
+    33:36:void onStop():54:54 -> b
+    33:36:void kotlin.jvm.internal.Intrinsics.throwUninitializedProperty(java.lang.String):54 -> b
+    33:36:void kotlin.jvm.internal.Intrinsics.throwUninitializedPropertyAccessException(java.lang.String):58 -> b
+    33:36:void startPoller():70 -> b
+    0:2:void onCreate(android.os.Bundle):27:27 -> onCreate
+    3:11:void onCreate(android.os.Bundle):29:29 -> onCreate
+    12:24:void onCreate(android.os.Bundle):31:31 -> onCreate
+    25:31:void onCreate(android.os.Bundle):37:37 -> onCreate
+    32:34:void onCreate(android.os.Bundle):38:38 -> onCreate
+    35:47:void onCreate(android.os.Bundle):40:40 -> onCreate
+    48:49:void onStop():54:54 -> onCreate
+    48:49:void kotlin.jvm.internal.Intrinsics.throwUninitializedProperty(java.lang.String):54 -> onCreate
+    48:49:void kotlin.jvm.internal.Intrinsics.throwUninitializedPropertyAccessException(java.lang.String):58 -> onCreate
+    48:49:void onCreate(android.os.Bundle):40 -> onCreate
+    50:54:void kotlin.UninitializedPropertyAccessException.<init>(java.lang.String):11:11 -> onCreate
+    50:54:void kotlin.jvm.internal.Intrinsics.throwUninitializedProperty(java.lang.String):54 -> onCreate
+    50:54:void kotlin.jvm.internal.Intrinsics.throwUninitializedPropertyAccessException(java.lang.String):58 -> onCreate
+    50:54:void onCreate(android.os.Bundle):40 -> onCreate
+    55:58:void onStop():54:54 -> onCreate
+    55:58:void kotlin.jvm.internal.Intrinsics.throwUninitializedProperty(java.lang.String):54 -> onCreate
+    55:58:void kotlin.jvm.internal.Intrinsics.throwUninitializedPropertyAccessException(java.lang.String):58 -> onCreate
+    55:58:void onCreate(android.os.Bundle):40 -> onCreate
+    12:16:boolean onKeyDown(int,android.view.KeyEvent):64:64 -> onKeyDown
+    17:21:boolean onKeyDown(int,android.view.KeyEvent):61:61 -> onKeyDown
+    0:2:void onStart():46:46 -> onStart
+    3:6:void onStart():47:47 -> onStart
+    0:7:void onStop():51:51 -> onStop
+    8:9:void onStop():52:52 -> onStop
+    10:13:void onStop():53:53 -> onStop
+dev.jairoserrano.solardream.MainActivity$$ExternalSyntheticLambda0 -> a.f:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    dev.jairoserrano.solardream.MainActivity dev.jairoserrano.solardream.MainActivity$$InternalSyntheticLambda$1$3eee6b6ce3cb00b793d46b012370d6f3ed004d9b83ca928496010dc4f5942f2a$0.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:5:void a.MainActivity$$ExternalSyntheticLambda0.<init>(dev.jairoserrano.solardream.MainActivity):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    2:7:void dev.jairoserrano.solardream.MainActivity.onCreate$lambda$0(dev.jairoserrano.solardream.MainActivity,android.view.View):41:41 -> onClick
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/view/View;)V"}
+dev.jairoserrano.solardream.MainActivity$$ExternalSyntheticLambda1 -> a.g:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.widget.EditText dev.jairoserrano.solardream.MainActivity$$InternalSyntheticLambda$1$ad0dbbda5a3362f6fdc4ca547a7cde9b181d350d552977b66ff514659fe0386d$0.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    dev.jairoserrano.solardream.MainActivity dev.jairoserrano.solardream.MainActivity$$InternalSyntheticLambda$1$ad0dbbda5a3362f6fdc4ca547a7cde9b181d350d552977b66ff514659fe0386d$0.f$1 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:7:void a.MainActivity$$ExternalSyntheticLambda1.<init>(android.widget.EditText,dev.jairoserrano.solardream.MainActivity):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    2:19:void dev.jairoserrano.solardream.MainActivity.showSettingsDialog$lambda$3(android.widget.EditText,dev.jairoserrano.solardream.MainActivity,android.content.DialogInterface,int):88:88 -> onClick
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/content/DialogInterface;I)V"}
+    20:25:void dev.jairoserrano.solardream.MainActivity.showSettingsDialog$lambda$3(android.widget.EditText,dev.jairoserrano.solardream.MainActivity,android.content.DialogInterface,int):89:89 -> onClick
+    26:32:void dev.jairoserrano.solardream.DtuSettings.setHost(android.content.Context,java.lang.String):0:0 -> onClick
+    26:32:void dev.jairoserrano.solardream.MainActivity.showSettingsDialog$lambda$3(android.widget.EditText,dev.jairoserrano.solardream.MainActivity,android.content.DialogInterface,int):90 -> onClick
+    33:39:void dev.jairoserrano.solardream.DtuSettings.setHost(android.content.Context,java.lang.String):30:30 -> onClick
+    33:39:void dev.jairoserrano.solardream.MainActivity.showSettingsDialog$lambda$3(android.widget.EditText,dev.jairoserrano.solardream.MainActivity,android.content.DialogInterface,int):90 -> onClick
+    40:63:void dev.jairoserrano.solardream.DtuSettings.setHost(android.content.Context,java.lang.String):31:31 -> onClick
+    40:63:void dev.jairoserrano.solardream.MainActivity.showSettingsDialog$lambda$3(android.widget.EditText,dev.jairoserrano.solardream.MainActivity,android.content.DialogInterface,int):90 -> onClick
+    64:78:void dev.jairoserrano.solardream.MainActivity.showSettingsDialog$lambda$3(android.widget.EditText,dev.jairoserrano.solardream.MainActivity,android.content.DialogInterface,int):91:91 -> onClick
+    79:82:void dev.jairoserrano.solardream.MainActivity.showSettingsDialog$lambda$3(android.widget.EditText,dev.jairoserrano.solardream.MainActivity,android.content.DialogInterface,int):92:92 -> onClick
+dev.jairoserrano.solardream.MainActivity$$ExternalSyntheticLambda2 -> a.h:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    dev.jairoserrano.solardream.MainActivity dev.jairoserrano.solardream.MainActivity$$InternalSyntheticLambda$1$ad0dbbda5a3362f6fdc4ca547a7cde9b181d350d552977b66ff514659fe0386d$1.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:5:void a.MainActivity$$ExternalSyntheticLambda2.<init>(dev.jairoserrano.solardream.MainActivity):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    4:17:void dev.jairoserrano.solardream.MainActivity.showSettingsDialog$lambda$4(dev.jairoserrano.solardream.MainActivity,android.content.DialogInterface,int):97:97 -> onClick
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/content/DialogInterface;I)V"}
+    18:30:void dev.jairoserrano.solardream.MainActivity.showSettingsDialog$lambda$4(dev.jairoserrano.solardream.MainActivity,android.content.DialogInterface,int):99:99 -> onClick
+dev.jairoserrano.solardream.SolarDreamService -> dev.jairoserrano.solardream.SolarDreamService:
+# {"id":"sourceFile","fileName":"SolarDreamService.kt"}
+    dev.jairoserrano.solardream.EnergyPoller poller -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/e;"}
+    0:3:void <init>():6:6 -> <init>
+    0:3:void onAttachedToWindow():10:10 -> onAttachedToWindow
+    4:7:void onAttachedToWindow():11:11 -> onAttachedToWindow
+    8:10:void onAttachedToWindow():12:12 -> onAttachedToWindow
+    11:15:void onAttachedToWindow():13:13 -> onAttachedToWindow
+    16:18:void onAttachedToWindow():14:14 -> onAttachedToWindow
+    19:30:void onAttachedToWindow():15:15 -> onAttachedToWindow
+    0:7:void onDetachedFromWindow():29:29 -> onDetachedFromWindow
+    8:9:void onDetachedFromWindow():30:30 -> onDetachedFromWindow
+    10:13:void onDetachedFromWindow():31:31 -> onDetachedFromWindow
+    0:2:void onDreamingStarted():19:19 -> onDreamingStarted
+    3:10:void onDreamingStarted():20:20 -> onDreamingStarted
+    0:6:void onDreamingStopped():24:24 -> onDreamingStopped
+    7:10:void onDreamingStopped():25:25 -> onDreamingStopped
+dev.jairoserrano.solardream.dtu.Crc16 -> dev.jairoserrano.solardream.dtu.Crc16:
+# {"id":"sourceFile","fileName":"Crc16.kt"}
+    0:3:void <init>():4:4 -> <init>
+    11:37:int compute(byte[],int,int):8:8 -> compute
+    9:15:int compute$default(dev.jairoserrano.solardream.dtu.Crc16,byte[],int,int,int,java.lang.Object):5:5 -> compute$default
+dev.jairoserrano.solardream.dtu.DtuClient -> dev.jairoserrano.solardream.dtu.DtuClient:
+# {"id":"sourceFile","fileName":"DtuClient.kt"}
+    kotlin.jvm.functions.Function0 now -> now
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Li/a;"}
+    1:6:void <init>(java.lang.String,int,int,long,kotlin.jvm.functions.Function0):15:20 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;IIJLi/a;)V"}
+    7:7:void <init>(java.lang.String,int,int,long,kotlin.jvm.functions.Function0):23:23 -> <init>
+    8:8:void <init>(java.lang.String,int,int,long,kotlin.jvm.functions.Function0,int,kotlin.jvm.internal.DefaultConstructorMarker):20:20 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;IIJLi/a;ILkotlin/jvm/internal/e;)V"}
+    9:9:void <init>(java.lang.String,int,int,long,kotlin.jvm.functions.Function0,int,kotlin.jvm.internal.DefaultConstructorMarker):15:15 -> <init>
+    0:9:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):45:45 -> exchange
+    10:21:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):38:38 -> exchange
+    22:23:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):39:39 -> exchange
+    24:25:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):40:40 -> exchange
+    26:44:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):41:41 -> exchange
+    45:48:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):42:42 -> exchange
+    49:52:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):39:39 -> exchange
+    53:57:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):45:45 -> exchange
+    58:71:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):46:46 -> exchange
+    72:76:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):47:47 -> exchange
+    77:80:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):48:48 -> exchange
+    81:83:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):49:49 -> exchange
+    84:86:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):50:50 -> exchange
+    87:103:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):52:52 -> exchange
+    104:108:void kotlin.io.CloseableKt.closeFinally(java.io.Closeable,java.lang.Throwable):56:56 -> exchange
+    104:108:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):52 -> exchange
+    109:110:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):52:52 -> exchange
+    111:117:void kotlin.io.CloseableKt.closeFinally(java.io.Closeable,java.lang.Throwable):59:59 -> exchange
+    111:117:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):52 -> exchange
+    118:129:boolean kotlin.internal.jdk7.JDK7PlatformImplementations.sdkIsNullOrAtLeast(int):22:22 -> exchange
+    118:129:void kotlin.internal.jdk7.JDK7PlatformImplementations.addSuppressed(java.lang.Throwable,java.lang.Throwable):27 -> exchange
+    118:129:void kotlin.ExceptionsKt__ExceptionsKt.addSuppressed(java.lang.Throwable,java.lang.Throwable):71 -> exchange
+    118:129:void kotlin.io.CloseableKt.closeFinally(java.io.Closeable,java.lang.Throwable):61 -> exchange
+    118:129:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):52 -> exchange
+    130:141:void kotlin.internal.PlatformImplementations.addSuppressed(java.lang.Throwable,java.lang.Throwable):32:32 -> exchange
+    130:141:void kotlin.internal.jdk7.JDK7PlatformImplementations.addSuppressed(java.lang.Throwable,java.lang.Throwable):30 -> exchange
+    130:141:void kotlin.ExceptionsKt__ExceptionsKt.addSuppressed(java.lang.Throwable,java.lang.Throwable):71 -> exchange
+    130:141:void kotlin.io.CloseableKt.closeFinally(java.io.Closeable,java.lang.Throwable):61 -> exchange
+    130:141:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):52 -> exchange
+    142:144:void kotlin.internal.jdk7.JDK7PlatformImplementations.addSuppressed(java.lang.Throwable,java.lang.Throwable):28:28 -> exchange
+    142:144:void kotlin.ExceptionsKt__ExceptionsKt.addSuppressed(java.lang.Throwable,java.lang.Throwable):71 -> exchange
+    142:144:void kotlin.io.CloseableKt.closeFinally(java.io.Closeable,java.lang.Throwable):61 -> exchange
+    142:144:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):52 -> exchange
+    145:145:dev.jairoserrano.solardream.dtu.DtuProtocol$Page exchange(int):52:52 -> exchange
+    2:7:byte[] readFrame(java.io.InputStream):57:57 -> readFrame
+    8:27:byte[] readFrame(java.io.InputStream):58:58 -> readFrame
+    28:31:byte[] readFrame(java.io.InputStream):62:62 -> readFrame
+    32:36:byte[] kotlin.collections.ArraysKt___ArraysJvmKt.plus(byte[],byte[]):0:0 -> readFrame
+    32:36:byte[] readFrame(java.io.InputStream):62 -> readFrame
+    37:38:byte[] kotlin.collections.ArraysKt___ArraysJvmKt.plus(byte[],byte[]):1909:1910 -> readFrame
+    37:38:byte[] readFrame(java.io.InputStream):62 -> readFrame
+    39:40:byte[] kotlin.collections.ArraysKt___ArraysJvmKt.plus(byte[],byte[]):1910:1910 -> readFrame
+    39:40:byte[] readFrame(java.io.InputStream):62 -> readFrame
+    41:45:byte[] kotlin.collections.ArraysKt___ArraysJvmKt.plus(byte[],byte[]):1911:1911 -> readFrame
+    41:45:byte[] readFrame(java.io.InputStream):62 -> readFrame
+    46:48:byte[] kotlin.collections.ArraysKt___ArraysJvmKt.plus(byte[],byte[]):1912:1912 -> readFrame
+    46:48:byte[] readFrame(java.io.InputStream):62 -> readFrame
+    49:52:byte[] kotlin.collections.ArraysKt___ArraysJvmKt.plus(byte[],byte[]):1913:1913 -> readFrame
+    49:52:byte[] readFrame(java.io.InputStream):62 -> readFrame
+    53:72:byte[] readFrame(java.io.InputStream):60:60 -> readFrame
+    0:6:byte[] readFully(java.io.InputStream,int):66:66 -> readFully
+    7:14:byte[] readFully(java.io.InputStream,int):69:69 -> readFully
+    15:48:byte[] readFully(java.io.InputStream,int):70:70 -> readFully
+    1:4:dev.jairoserrano.solardream.dtu.RawReading readRealData():27:27 -> readRealData
+    5:8:dev.jairoserrano.solardream.dtu.RawReading readRealData():28:28 -> readRealData
+    9:18:java.util.List kotlin.collections.CollectionsKt__CollectionsKt.mutableListOf(java.lang.Object[]):118:118 -> readRealData
+    9:18:dev.jairoserrano.solardream.dtu.RawReading readRealData():28 -> readRealData
+    19:29:dev.jairoserrano.solardream.dtu.RawReading readRealData():29:29 -> readRealData
+    30:40:dev.jairoserrano.solardream.dtu.RawReading readRealData():30:30 -> readRealData
+    41:50:dev.jairoserrano.solardream.dtu.RawReading readRealData():31:31 -> readRealData
+    51:57:dev.jairoserrano.solardream.dtu.RawReading readRealData():33:33 -> readRealData
+dev.jairoserrano.solardream.dtu.DtuClient$1 -> dev.jairoserrano.solardream.dtu.DtuClient$1:
+# {"id":"sourceFile","fileName":"DtuClient.kt"}
+    0:5:void kotlin.jvm.internal.FunctionReferenceImpl.<init>(int,java.lang.Class,java.lang.String,java.lang.String,int):24:24 -> <init>
+    0:5:void <init>():0 -> <init>
+    1:1:java.lang.Long invoke():20:20 -> invoke
+    2:2:java.lang.Object invoke():20:20 -> invoke
+dev.jairoserrano.solardream.dtu.DtuClient$Companion -> dev.jairoserrano.solardream.dtu.DtuClient$Companion:
+# {"id":"sourceFile","fileName":"DtuClient.kt"}
+    1:1:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lkotlin/jvm/internal/e;)V"}
+    2:2:void <init>():76:76 -> <init>
+dev.jairoserrano.solardream.dtu.DtuProtocol -> dev.jairoserrano.solardream.dtu.DtuProtocol:
+# {"id":"sourceFile","fileName":"DtuProtocol.kt"}
+    0:3:void <init>():7:7 -> <init>
+    5:9:byte[] buildRealDataRequest(int,java.lang.String,long,int):24:24 -> buildRealDataRequest
+    10:26:byte[] buildRealDataRequest(int,java.lang.String,long,int):25:25 -> buildRealDataRequest
+    27:32:byte[] buildRealDataRequest(int,java.lang.String,long,int):26:26 -> buildRealDataRequest
+    33:36:byte[] buildRealDataRequest(int,java.lang.String,long,int):27:27 -> buildRealDataRequest
+    37:39:byte[] buildRealDataRequest(int,java.lang.String,long,int):28:28 -> buildRealDataRequest
+    40:43:byte[] buildRealDataRequest(int,java.lang.String,long,int):29:29 -> buildRealDataRequest
+    44:52:byte[] buildRealDataRequest(int,java.lang.String,long,int):31:31 -> buildRealDataRequest
+    53:56:byte[] buildRealDataRequest(int,java.lang.String,long,int):32:32 -> buildRealDataRequest
+    57:60:byte[] buildRealDataRequest(int,java.lang.String,long,int):33:33 -> buildRealDataRequest
+    61:65:byte[] buildRealDataRequest(int,java.lang.String,long,int):34:34 -> buildRealDataRequest
+    66:71:byte[] buildRealDataRequest(int,java.lang.String,long,int):35:35 -> buildRealDataRequest
+    72:74:byte[] buildRealDataRequest(int,java.lang.String,long,int):36:36 -> buildRealDataRequest
+    75:89:byte[] buildRealDataRequest(int,java.lang.String,long,int):37:37 -> buildRealDataRequest
+    90:96:byte[] buildRealDataRequest(int,java.lang.String,long,int):38:38 -> buildRealDataRequest
+    97:97:byte[] kotlin.collections.ArraysKt___ArraysJvmKt.copyInto$default(byte[],byte[],int,int,int,int,java.lang.Object):954:954 -> buildRealDataRequest
+    97:97:byte[] buildRealDataRequest(int,java.lang.String,long,int):39 -> buildRealDataRequest
+    98:101:byte[] kotlin.collections.ArraysKt___ArraysJvmKt.copyInto(byte[],byte[],int,int,int):955:955 -> buildRealDataRequest
+    98:101:byte[] kotlin.collections.ArraysKt___ArraysJvmKt.copyInto$default(byte[],byte[],int,int,int,int,java.lang.Object):954 -> buildRealDataRequest
+    98:101:byte[] buildRealDataRequest(int,java.lang.String,long,int):39 -> buildRealDataRequest
+    0:12:dev.jairoserrano.solardream.dtu.DtuProtocol$Page decode(dev.jairoserrano.solardream.dtu.ProtoReader):76:76 -> decode
+    13:18:dev.jairoserrano.solardream.dtu.DtuProtocol$Page decode(dev.jairoserrano.solardream.dtu.ProtoReader):77:77 -> decode
+    19:33:dev.jairoserrano.solardream.dtu.DtuProtocol$Page decode(dev.jairoserrano.solardream.dtu.ProtoReader):78:78 -> decode
+    34:49:dev.jairoserrano.solardream.dtu.DtuProtocol$Page decode(dev.jairoserrano.solardream.dtu.ProtoReader):82:82 -> decode
+    50:59:dev.jairoserrano.solardream.dtu.DtuProtocol$Page decode(dev.jairoserrano.solardream.dtu.ProtoReader):83:83 -> decode
+    60:70:dev.jairoserrano.solardream.dtu.DtuProtocol$Page decode(dev.jairoserrano.solardream.dtu.ProtoReader):84:84 -> decode
+    71:81:dev.jairoserrano.solardream.dtu.DtuProtocol$Page decode(dev.jairoserrano.solardream.dtu.ProtoReader):85:85 -> decode
+    82:93:dev.jairoserrano.solardream.dtu.DtuProtocol$Page decode(dev.jairoserrano.solardream.dtu.ProtoReader):87:87 -> decode
+    94:109:dev.jairoserrano.solardream.dtu.DtuProtocol$Page decode(dev.jairoserrano.solardream.dtu.ProtoReader):88:88 -> decode
+    110:120:dev.jairoserrano.solardream.dtu.DtuProtocol$Page decode(dev.jairoserrano.solardream.dtu.ProtoReader):90:90 -> decode
+    121:127:dev.jairoserrano.solardream.dtu.DtuProtocol$Page decode(dev.jairoserrano.solardream.dtu.ProtoReader):91:91 -> decode
+    128:131:dev.jairoserrano.solardream.dtu.DtuProtocol$Page decode(dev.jairoserrano.solardream.dtu.ProtoReader):92:92 -> decode
+    132:138:dev.jairoserrano.solardream.dtu.DtuProtocol$Page decode(dev.jairoserrano.solardream.dtu.ProtoReader):95:95 -> decode
+    1:6:int decodeMeterPower(dev.jairoserrano.solardream.dtu.ProtoReader):101:101 -> decodeMeterPower
+    7:20:int decodeMeterPower(dev.jairoserrano.solardream.dtu.ProtoReader):102:102 -> decodeMeterPower
+    21:31:int decodeMeterPower(dev.jairoserrano.solardream.dtu.ProtoReader):105:105 -> decodeMeterPower
+    0:13:int getU16(byte[],int):116:116 -> getU16
+    5:10:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):59:59 -> merge
+    11:17:java.lang.Object kotlin.collections.CollectionsKt___CollectionsKt.first(java.util.List):220:220 -> merge
+    11:17:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):61 -> merge
+    18:21:java.lang.Object kotlin.collections.CollectionsKt___CollectionsKt.first(java.util.List):222:222 -> merge
+    18:21:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):61 -> merge
+    22:27:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):61:61 -> merge
+    28:69:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):62:62 -> merge
+    70:95:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):63:63 -> merge
+    96:137:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):64:64 -> merge
+    138:179:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):65:65 -> merge
+    180:186:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):60:60 -> merge
+    187:192:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):65:65 -> merge
+    193:198:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):64:64 -> merge
+    199:204:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):62:62 -> merge
+    205:212:java.lang.Object kotlin.collections.CollectionsKt___CollectionsKt.first(java.util.List):221:221 -> merge
+    205:212:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):61 -> merge
+    213:220:dev.jairoserrano.solardream.dtu.RawReading merge(java.util.List):59:59 -> merge
+    5:10:dev.jairoserrano.solardream.dtu.DtuProtocol$Page parseRealDataResponse(byte[]):44:44 -> parseRealDataResponse
+    11:25:dev.jairoserrano.solardream.dtu.DtuProtocol$Page parseRealDataResponse(byte[]):45:45 -> parseRealDataResponse
+    26:29:dev.jairoserrano.solardream.dtu.DtuProtocol$Page parseRealDataResponse(byte[]):48:48 -> parseRealDataResponse
+    30:33:dev.jairoserrano.solardream.dtu.DtuProtocol$Page parseRealDataResponse(byte[]):49:49 -> parseRealDataResponse
+    34:37:dev.jairoserrano.solardream.dtu.DtuProtocol$Page parseRealDataResponse(byte[]):52:52 -> parseRealDataResponse
+    38:47:dev.jairoserrano.solardream.dtu.DtuProtocol$Page parseRealDataResponse(byte[]):53:53 -> parseRealDataResponse
+    48:64:dev.jairoserrano.solardream.dtu.DtuProtocol$Page parseRealDataResponse(byte[]):55:55 -> parseRealDataResponse
+    65:72:dev.jairoserrano.solardream.dtu.DtuProtocol$Page parseRealDataResponse(byte[]):54:54 -> parseRealDataResponse
+    73:101:dev.jairoserrano.solardream.dtu.DtuProtocol$Page parseRealDataResponse(byte[]):50:50 -> parseRealDataResponse
+    102:109:dev.jairoserrano.solardream.dtu.DtuProtocol$Page parseRealDataResponse(byte[]):46:46 -> parseRealDataResponse
+    110:135:dev.jairoserrano.solardream.dtu.DtuProtocol$Page parseRealDataResponse(byte[]):44:44 -> parseRealDataResponse
+    3:7:void putU16(byte[],int,int):111:111 -> putU16
+    8:10:void putU16(byte[],int,int):112:112 -> putU16
+dev.jairoserrano.solardream.dtu.DtuProtocol$Page -> dev.jairoserrano.solardream.dtu.DtuProtocol$Page:
+# {"id":"sourceFile","fileName":"DtuProtocol.kt"}
+    5:7:void <init>(java.lang.String,long,int,int,java.lang.Integer,long,long):13:13 -> <init>
+    8:9:void <init>(java.lang.String,long,int,int,java.lang.Integer,long,long):14:14 -> <init>
+    10:11:void <init>(java.lang.String,long,int,int,java.lang.Integer,long,long):15:15 -> <init>
+    12:13:void <init>(java.lang.String,long,int,int,java.lang.Integer,long,long):16:16 -> <init>
+    14:15:void <init>(java.lang.String,long,int,int,java.lang.Integer,long,long):17:17 -> <init>
+    16:17:void <init>(java.lang.String,long,int,int,java.lang.Integer,long,long):18:18 -> <init>
+    18:19:void <init>(java.lang.String,long,int,int,java.lang.Integer,long,long):19:19 -> <init>
+    20:22:void <init>(java.lang.String,long,int,int,java.lang.Integer,long,long):20:20 -> <init>
+    0:2:java.lang.String getDeviceSerial():14:14 -> getDeviceSerial
+    0:2:long getDtuDailyEnergy():20:20 -> getDtuDailyEnergy
+    0:2:long getDtuPower():19:19 -> getDtuPower
+    0:2:java.lang.Integer getMeterTotalPower():18:18 -> getMeterTotalPower
+    0:2:int getPage():17:17 -> getPage
+    0:2:long getTimestamp():15:15 -> getTimestamp
+    0:2:int getTotalPages():16:16 -> getTotalPages
+dev.jairoserrano.solardream.dtu.DtuProtocolException -> dev.jairoserrano.solardream.dtu.DtuProtocolException:
+# {"id":"sourceFile","fileName":"DtuProtocolException.kt"}
+    5:8:void <init>(java.lang.String):5:5 -> <init>
+dev.jairoserrano.solardream.dtu.ProtoReader -> dev.jairoserrano.solardream.dtu.ProtoReader:
+# {"id":"sourceFile","fileName":"ProtoReader.kt"}
+    1:4:void <init>(byte[],int,int):4:7 -> <init>
+    5:5:void <init>(byte[],int,int,int,kotlin.jvm.internal.DefaultConstructorMarker):7:7 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"([BIIILkotlin/jvm/internal/e;)V"}
+    6:6:void <init>(byte[],int,int,int,kotlin.jvm.internal.DefaultConstructorMarker):4:4 -> <init>
+    0:7:void advance(int):55:55 -> advance
+    8:10:void advance(int):56:56 -> advance
+    11:18:void advance(int):55:55 -> advance
+    0:9:boolean hasMore():9:9 -> hasMore
+    0:3:byte[] readBytes():25:25 -> readBytes
+    4:9:byte[] readBytes():26:26 -> readBytes
+    10:14:byte[] kotlin.collections.ArraysKt___ArraysJvmKt.copyOfRange(byte[],int,int):0:0 -> readBytes
+    10:14:byte[] readBytes():26 -> readBytes
+    15:17:byte[] kotlin.collections.ArraysKt___ArraysJvmKt.copyOfRange(byte[],int,int):1528:1528 -> readBytes
+    15:17:byte[] readBytes():26 -> readBytes
+    18:26:byte[] kotlin.collections.ArraysKt___ArraysJvmKt.copyOfRange(byte[],int,int):1529:1529 -> readBytes
+    18:26:byte[] readBytes():26 -> readBytes
+    27:32:byte[] readBytes():27:27 -> readBytes
+    33:65:void kotlin.collections.ArraysKt__ArraysJVMKt.copyOfRangeToIndexCheck(int,int):49:49 -> readBytes
+    33:65:byte[] kotlin.collections.ArraysKt___ArraysJvmKt.copyOfRange(byte[],int,int):1528 -> readBytes
+    33:65:byte[] readBytes():26 -> readBytes
+    0:9:int readLength():49:49 -> readLength
+    10:41:int readLength():50:50 -> readLength
+    0:3:dev.jairoserrano.solardream.dtu.ProtoReader readMessage():32:32 -> readMessage
+    4:14:dev.jairoserrano.solardream.dtu.ProtoReader readMessage():33:33 -> readMessage
+    15:20:dev.jairoserrano.solardream.dtu.ProtoReader readMessage():34:34 -> readMessage
+    3:12:long readVarint():15:15 -> readVarint
+    13:33:long readVarint():17:17 -> readVarint
+    34:41:long readVarint():16:16 -> readVarint
+    42:49:long readVarint():15:15 -> readVarint
+    12:15:void skip(int):43:43 -> skip
+    16:35:void skip(int):44:44 -> skip
+    36:45:void skip(int):42:42 -> skip
+    46:49:void skip(int):41:41 -> skip
+    50:53:void skip(int):40:40 -> skip
+dev.jairoserrano.solardream.dtu.ProtoWriter -> dev.jairoserrano.solardream.dtu.ProtoWriter:
+# {"id":"sourceFile","fileName":"ProtoWriter.kt"}
+    0:2:void <init>():6:6 -> <init>
+    3:10:void <init>():7:7 -> <init>
+    5:9:void bytes(int,byte[]):16:16 -> bytes
+    10:12:void bytes(int,byte[]):17:17 -> bytes
+    13:17:void bytes(int,byte[]):18:18 -> bytes
+    18:23:void bytes(int,byte[]):19:19 -> bytes
+    9:15:void rawVarint(long):30:30 -> rawVarint
+    16:30:void rawVarint(long):33:33 -> rawVarint
+    4:7:void tag(int,int):24:24 -> tag
+    0:11:byte[] toByteArray():22:22 -> toByteArray
+    8:10:void varint(int,long):11:11 -> varint
+    11:14:void varint(int,long):12:12 -> varint
+dev.jairoserrano.solardream.dtu.RawReading -> dev.jairoserrano.solardream.dtu.RawReading:
+# {"id":"sourceFile","fileName":"RawReading.kt"}
+    5:7:void <init>(java.lang.String,long,java.lang.Integer,long,long):7:7 -> <init>
+    8:9:void <init>(java.lang.String,long,java.lang.Integer,long,long):8:8 -> <init>
+    10:11:void <init>(java.lang.String,long,java.lang.Integer,long,long):9:9 -> <init>
+    12:13:void <init>(java.lang.String,long,java.lang.Integer,long,long):10:10 -> <init>
+    14:15:void <init>(java.lang.String,long,java.lang.Integer,long,long):11:11 -> <init>
+    16:18:void <init>(java.lang.String,long,java.lang.Integer,long,long):12:12 -> <init>
+    0:2:java.lang.String getDeviceSerial():8:8 -> getDeviceSerial
+    0:2:long getDtuDailyEnergy():12:12 -> getDtuDailyEnergy
+    0:2:long getDtuPower():11:11 -> getDtuPower
+    0:2:java.lang.Integer getMeterTotalPower():10:10 -> getMeterTotalPower
+    0:2:long getTimestamp():9:9 -> getTimestamp
+dev.jairoserrano.solardream.model.ConnectionTracker -> dev.jairoserrano.solardream.model.ConnectionTracker:
+# {"id":"sourceFile","fileName":"ConnectionTracker.kt"}
+    1:1:void <init>():0:0 -> <init>
+    2:2:void <init>(int):4:4 -> <init>
+    3:3:void <init>(int,int,kotlin.jvm.internal.DefaultConstructorMarker):4:4 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(IILkotlin/jvm/internal/e;)V"}
+    1:6:void onFailure():25:25 -> onFailure
+    7:11:void onFailure():26:26 -> onFailure
+    7:8:void onSuccess(dev.jairoserrano.solardream.model.EnergySnapshot,long):18:18 -> onSuccess
+    9:10:void onSuccess(dev.jairoserrano.solardream.model.EnergySnapshot,long):19:19 -> onSuccess
+    11:16:void onSuccess(dev.jairoserrano.solardream.model.EnergySnapshot,long):20:20 -> onSuccess
+    17:21:void onSuccess(dev.jairoserrano.solardream.model.EnergySnapshot,long):21:21 -> onSuccess
+    1:2:dev.jairoserrano.solardream.model.ConnectionTracker$State state():29:29 -> state
+    3:17:dev.jairoserrano.solardream.model.ConnectionTracker$State state():30:30 -> state
+    18:19:dev.jairoserrano.solardream.model.ConnectionTracker$State state():32:32 -> state
+    20:22:dev.jairoserrano.solardream.model.ConnectionTracker$State state():29:29 -> state
+    23:26:dev.jairoserrano.solardream.model.ConnectionTracker$State state():33:33 -> state
+dev.jairoserrano.solardream.model.ConnectionTracker$State -> dev.jairoserrano.solardream.model.ConnectionTracker$State:
+# {"id":"sourceFile","fileName":"ConnectionTracker.kt"}
+    0:2:void <init>(boolean,dev.jairoserrano.solardream.model.EnergySnapshot,java.lang.Long):6:6 -> <init>
+    3:4:void <init>(boolean,dev.jairoserrano.solardream.model.EnergySnapshot,java.lang.Long):7:7 -> <init>
+    5:6:void <init>(boolean,dev.jairoserrano.solardream.model.EnergySnapshot,java.lang.Long):8:8 -> <init>
+    7:9:void <init>(boolean,dev.jairoserrano.solardream.model.EnergySnapshot,java.lang.Long):9:9 -> <init>
+    0:2:boolean getConnected():7:7 -> getConnected
+    0:2:dev.jairoserrano.solardream.model.EnergySnapshot getLast():8:8 -> getLast
+    0:2:java.lang.Long getLastOkMillis():9:9 -> getLastOkMillis
+dev.jairoserrano.solardream.model.EnergyModel -> dev.jairoserrano.solardream.model.EnergyModel:
+# {"id":"sourceFile","fileName":"EnergyModel.kt"}
+    1:1:void <init>():0:0 -> <init>
+    2:2:void <init>(dev.jairoserrano.solardream.model.MeterConvention,int,kotlin.jvm.internal.DefaultConstructorMarker):7:7 -> <init>
+    2:2:void <init>(dev.jairoserrano.solardream.model.MeterConvention):7 -> <init>
+    3:3:void <init>(dev.jairoserrano.solardream.model.MeterConvention,int,kotlin.jvm.internal.DefaultConstructorMarker):7:7 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ldev/jairoserrano/solardream/model/MeterConvention;ILkotlin/jvm/internal/e;)V"}
+    5:20:dev.jairoserrano.solardream.model.EnergySnapshot toSnapshot(dev.jairoserrano.solardream.dtu.RawReading):10:10 -> toSnapshot
+    21:60:dev.jairoserrano.solardream.model.EnergySnapshot toSnapshot(dev.jairoserrano.solardream.dtu.RawReading):11:11 -> toSnapshot
+    61:75:dev.jairoserrano.solardream.model.EnergySnapshot toSnapshot(dev.jairoserrano.solardream.dtu.RawReading):15:15 -> toSnapshot
+    76:88:dev.jairoserrano.solardream.model.EnergySnapshot toSnapshot(dev.jairoserrano.solardream.dtu.RawReading):16:16 -> toSnapshot
+    89:95:dev.jairoserrano.solardream.model.EnergySnapshot toSnapshot(dev.jairoserrano.solardream.dtu.RawReading):18:18 -> toSnapshot
+    96:97:dev.jairoserrano.solardream.model.EnergySnapshot toSnapshot(dev.jairoserrano.solardream.dtu.RawReading):19:19 -> toSnapshot
+    98:109:dev.jairoserrano.solardream.model.EnergySnapshot toSnapshot(dev.jairoserrano.solardream.dtu.RawReading):23:23 -> toSnapshot
+    110:119:long kotlin.math.MathKt__MathJVMKt.roundToLong(double):637:637 -> toSnapshot
+    110:119:dev.jairoserrano.solardream.model.EnergySnapshot toSnapshot(dev.jairoserrano.solardream.dtu.RawReading):23 -> toSnapshot
+    120:124:dev.jairoserrano.solardream.model.EnergySnapshot toSnapshot(dev.jairoserrano.solardream.dtu.RawReading):24:24 -> toSnapshot
+    125:128:dev.jairoserrano.solardream.model.EnergySnapshot toSnapshot(dev.jairoserrano.solardream.dtu.RawReading):19:19 -> toSnapshot
+    129:136:long kotlin.math.MathKt__MathJVMKt.roundToLong(double):637:637 -> toSnapshot
+    129:136:dev.jairoserrano.solardream.model.EnergySnapshot toSnapshot(dev.jairoserrano.solardream.dtu.RawReading):23 -> toSnapshot
+dev.jairoserrano.solardream.model.EnergySnapshot -> dev.jairoserrano.solardream.model.EnergySnapshot:
+# {"id":"sourceFile","fileName":"EnergySnapshot.kt"}
+    0:2:void <init>(int,int,java.lang.Integer,long,long,boolean):7:7 -> <init>
+    3:4:void <init>(int,int,java.lang.Integer,long,long,boolean):8:8 -> <init>
+    5:6:void <init>(int,int,java.lang.Integer,long,long,boolean):9:9 -> <init>
+    7:8:void <init>(int,int,java.lang.Integer,long,long,boolean):10:10 -> <init>
+    9:10:void <init>(int,int,java.lang.Integer,long,long,boolean):11:11 -> <init>
+    11:12:void <init>(int,int,java.lang.Integer,long,long,boolean):12:12 -> <init>
+    13:15:void <init>(int,int,java.lang.Integer,long,long,boolean):13:13 -> <init>
+    0:2:int getGridW():9:9 -> getGridW
+    0:2:boolean getHasMeter():13:13 -> getHasMeter
+    0:2:java.lang.Integer getHouseW():10:10 -> getHouseW
+    0:2:long getProducedTodayWh():11:11 -> getProducedTodayWh
+    0:2:int getProductionW():8:8 -> getProductionW
+    0:2:long getTimestampSec():12:12 -> getTimestampSec
+dev.jairoserrano.solardream.model.MeterConvention -> dev.jairoserrano.solardream.model.MeterConvention:
+# {"id":"sourceFile","fileName":"MeterConvention.kt"}
+    8:26:void <clinit>():20:20 -> <clinit>
+    1:1:void <init>():0:0 -> <init>
+    2:6:void <init>(boolean,double,double,double):13:17 -> <init>
+    7:7:void <init>(boolean,double,double,double,int,kotlin.jvm.internal.DefaultConstructorMarker):13:13 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(ZDDDILkotlin/jvm/internal/e;)V"}
+    0:2:dev.jairoserrano.solardream.model.MeterConvention access$getCALIBRATED$cp():13:13 -> access$getCALIBRATED$cp
+    0:2:double getDailyEnergyWhPerUnit():16:16 -> getDailyEnergyWhPerUnit
+    0:2:double getDtuPowerWattsPerUnit():15:15 -> getDtuPowerWattsPerUnit
+    0:2:boolean getImportIsPositive():14:14 -> getImportIsPositive
+    0:2:double getMeterPowerWattsPerUnit():17:17 -> getMeterPowerWattsPerUnit
+dev.jairoserrano.solardream.model.MeterConvention$Companion -> dev.jairoserrano.solardream.model.MeterConvention$Companion:
+# {"id":"sourceFile","fileName":"MeterConvention.kt"}
+    1:1:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lkotlin/jvm/internal/e;)V"}
+    2:2:void <init>():19:19 -> <init>
+    0:4:dev.jairoserrano.solardream.model.MeterConvention getCALIBRATED():20:20 -> getCALIBRATED
+dev.jairoserrano.solardream.ui.Arrow -> dev.jairoserrano.solardream.ui.Arrow:
+# {"id":"sourceFile","fileName":"FlowState.kt"}
+    kotlin.enums.EnumEntries $ENTRIES -> $ENTRIES
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/a;"}
+    0:40:void <clinit>():7:7 -> <clinit>
+    41:45:kotlin.enums.EnumEntries kotlin.enums.EnumEntriesKt.enumEntries(java.lang.Enum[]):43:43 -> <clinit>
+    41:45:void <clinit>():7 -> <clinit>
+    46:48:void <clinit>():7:7 -> <clinit>
+    0:3:void <init>(java.lang.String,int):7:7 -> <init>
+    0:2:d.EnumEntries getEntries():0:0 -> getEntries
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ld/a;"}
+    6:8:dev.jairoserrano.solardream.ui.Arrow valueOf(java.lang.String):7:7 -> valueOf
+    6:8:dev.jairoserrano.solardream.ui.Arrow[] values():7:7 -> values
+dev.jairoserrano.solardream.ui.FlowState -> dev.jairoserrano.solardream.ui.FlowState:
+# {"id":"sourceFile","fileName":"FlowState.kt"}
+    8:20:void <clinit>():27:27 -> <clinit>
+    21:38:void <clinit>():29:29 -> <clinit>
+    1:12:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,dev.jairoserrano.solardream.ui.Arrow,dev.jairoserrano.solardream.ui.Arrow,dev.jairoserrano.solardream.ui.GridMode,boolean,java.lang.String,java.lang.String,java.lang.String):12:23 -> <init>
+    13:13:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,dev.jairoserrano.solardream.ui.Arrow,dev.jairoserrano.solardream.ui.Arrow,dev.jairoserrano.solardream.ui.GridMode,boolean,java.lang.String,java.lang.String,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker):23:23 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ldev/jairoserrano/solardream/ui/Arrow;Ldev/jairoserrano/solardream/ui/Arrow;Ldev/jairoserrano/solardream/ui/GridMode;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/e;)V"}
+    14:14:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,dev.jairoserrano.solardream.ui.Arrow,dev.jairoserrano.solardream.ui.Arrow,dev.jairoserrano.solardream.ui.GridMode,boolean,java.lang.String,java.lang.String,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker):12:12 -> <init>
+    0:2:java.lang.String CONNECTING$lambda$0(long):29:29 -> CONNECTING$lambda$0
+    0:4:java.lang.String $r8$lambda$M4hBARWSUHBrk6-JG76e1wzjo6c(long):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:2:dev.jairoserrano.solardream.ui.FlowState access$getCONNECTING$cp():12:12 -> access$getCONNECTING$cp
+    0:2:java.util.Locale access$getES$cp():12:12 -> access$getES$cp
+    0:2:java.lang.String getCorner():22:22 -> getCorner
+    0:2:boolean getDimmed():20:20 -> getDimmed
+    0:2:java.lang.String getFooter():21:21 -> getFooter
+    0:2:java.lang.String getGridLabel():16:16 -> getGridLabel
+    0:2:dev.jairoserrano.solardream.ui.GridMode getGridMode():19:19 -> getGridMode
+    0:2:java.lang.String getGridText():15:15 -> getGridText
+    0:2:dev.jairoserrano.solardream.ui.Arrow getHouseGrid():18:18 -> getHouseGrid
+    0:2:java.lang.String getHouseText():14:14 -> getHouseText
+    0:2:java.lang.String getPanelsText():13:13 -> getPanelsText
+    0:2:dev.jairoserrano.solardream.ui.Arrow getPanelsToHouse():17:17 -> getPanelsToHouse
+    0:2:java.lang.String getTodayText():23:23 -> getTodayText
+dev.jairoserrano.solardream.ui.FlowState$$ExternalSyntheticLambda0 -> dev.jairoserrano.solardream.ui.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    0:10:java.lang.String invoke(java.lang.Object):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+dev.jairoserrano.solardream.ui.FlowState$Companion -> dev.jairoserrano.solardream.ui.FlowState$Companion:
+# {"id":"sourceFile","fileName":"FlowState.kt"}
+    1:1:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lkotlin/jvm/internal/e;)V"}
+    2:2:void <init>():25:25 -> <init>
+    1:1:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,kotlin.jvm.functions.Function1):32:32 -> from
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ldev/jairoserrano/solardream/model/ConnectionTracker$State;Li/l;)Ldev/jairoserrano/solardream/ui/FlowState;"}
+    2:2:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):39:39 -> from
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ldev/jairoserrano/solardream/model/ConnectionTracker$State;Ljava/util/Locale;Li/l;)Ldev/jairoserrano/solardream/ui/FlowState;"}
+    3:3:boolean kotlin.jvm.internal.Intrinsics.areEqual(java.lang.Object,java.lang.Object):169:169 -> from
+    3:3:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):39 -> from
+    4:5:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):40:41 -> from
+    6:6:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):46:46 -> from
+    7:7:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):48:48 -> from
+    8:8:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):50:50 -> from
+    9:9:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):41:41 -> from
+    10:11:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):54:55 -> from
+    12:15:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):58:61 -> from
+    16:16:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):63:63 -> from
+    17:17:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):65:65 -> from
+    18:18:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):64:64 -> from
+    19:22:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):69:72 -> from
+    23:23:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):75:75 -> from
+    24:24:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):77:77 -> from
+    25:27:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):80:82 -> from
+    28:28:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):90:90 -> from
+    29:29:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):92:92 -> from
+    30:30:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):96:96 -> from
+    31:31:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):98:98 -> from
+    32:32:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):102:102 -> from
+    33:33:dev.jairoserrano.solardream.ui.FlowState from(dev.jairoserrano.solardream.model.ConnectionTracker$State,java.util.Locale,kotlin.jvm.functions.Function1):79:79 -> from
+    0:4:dev.jairoserrano.solardream.ui.FlowState getCONNECTING():29:29 -> getCONNECTING
+    7:26:java.lang.String kw(int,java.util.Locale):107:107 -> kw
+    4:12:java.lang.String kw$default(dev.jairoserrano.solardream.ui.FlowState$Companion,int,java.util.Locale,int,java.lang.Object):106:106 -> kw$default
+dev.jairoserrano.solardream.ui.FlowState$Companion$WhenMappings -> dev.jairoserrano.solardream.ui.FlowState$Companion$WhenMappings:
+# {"id":"sourceFile","fileName":"FlowState.kt"}
+dev.jairoserrano.solardream.ui.FlowView -> dev.jairoserrano.solardream.ui.FlowView:
+# {"id":"sourceFile","fileName":"FlowView.kt"}
+    9:12:void <clinit>():481:481 -> <clinit>
+    13:19:void <init>(android.content.Context):43:43 -> <clinit>
+    13:19:kotlin.Pair kotlin.TuplesKt.to(java.lang.Object,java.lang.Object):43 -> <clinit>
+    13:19:void <clinit>():481 -> <clinit>
+    20:29:void <clinit>():481:481 -> <clinit>
+    30:36:void <init>(android.content.Context):43:43 -> <clinit>
+    30:36:kotlin.Pair kotlin.TuplesKt.to(java.lang.Object,java.lang.Object):43 -> <clinit>
+    30:36:void <clinit>():481 -> <clinit>
+    37:46:void <clinit>():481:481 -> <clinit>
+    47:51:void <init>(android.content.Context):43:43 -> <clinit>
+    47:51:kotlin.Pair kotlin.TuplesKt.to(java.lang.Object,java.lang.Object):43 -> <clinit>
+    47:51:void <clinit>():481 -> <clinit>
+    52:59:void <clinit>():481:481 -> <clinit>
+    60:66:void <init>(android.content.Context):43:43 -> <clinit>
+    60:66:kotlin.Pair kotlin.TuplesKt.to(java.lang.Object,java.lang.Object):43 -> <clinit>
+    60:66:void <clinit>():481 -> <clinit>
+    67:76:void <clinit>():481:481 -> <clinit>
+    77:81:void <init>(android.content.Context):43:43 -> <clinit>
+    77:81:kotlin.Pair kotlin.TuplesKt.to(java.lang.Object,java.lang.Object):43 -> <clinit>
+    77:81:void <clinit>():481 -> <clinit>
+    82:85:void <clinit>():481:481 -> <clinit>
+    86:89:java.util.List kotlin.collections.ArraysUtilJVM.asList(java.lang.Object[]):13:13 -> <clinit>
+    86:89:java.util.List kotlin.collections.ArraysKt___ArraysJvmKt.asList(java.lang.Object[]):133 -> <clinit>
+    86:89:java.util.List kotlin.collections.CollectionsKt__CollectionsKt.listOf(java.lang.Object[]):78 -> <clinit>
+    86:89:void <clinit>():481 -> <clinit>
+    90:94:void onDraw(android.graphics.Canvas):133:133 -> <clinit>
+    90:94:java.util.List kotlin.collections.ArraysKt___ArraysJvmKt.asList(java.lang.Object[]):133 -> <clinit>
+    90:94:java.util.List kotlin.collections.CollectionsKt__CollectionsKt.listOf(java.lang.Object[]):78 -> <clinit>
+    90:94:void <clinit>():481 -> <clinit>
+    95:97:void <clinit>():481:481 -> <clinit>
+    9:11:android.os.Handler access$getHandler$p(dev.jairoserrano.solardream.ui.FlowView):25:25 -> <init>
+    9:11:void <init>(android.content.Context):25 -> <init>
+    12:19:void <init>(android.content.Context):26:26 -> <init>
+    20:30:void <init>(android.content.Context):30:30 -> <init>
+    31:38:void <init>(android.content.Context):31:31 -> <init>
+    39:45:void <init>(android.content.Context):32:32 -> <init>
+    46:52:void <init>(android.content.Context):33:33 -> <init>
+    53:61:void <init>(android.content.Context):34:34 -> <init>
+    62:69:void <init>(android.content.Context):35:35 -> <init>
+    70:77:void <init>(android.content.Context):36:36 -> <init>
+    78:85:void <init>(android.content.Context):39:39 -> <init>
+    86:89:void <init>(android.content.Context):40:40 -> <init>
+    90:101:void <init>(android.content.Context):41:41 -> <init>
+    102:106:void <init>(android.content.Context):39:39 -> <init>
+    107:111:void <init>(android.content.Context):43:43 -> <init>
+    112:125:void <init>(android.content.Context):44:44 -> <init>
+    126:130:void <init>(android.content.Context):43:43 -> <init>
+    131:135:void <init>(android.content.Context):45:45 -> <init>
+    136:146:void <init>(android.content.Context):46:46 -> <init>
+    147:151:void <init>(android.content.Context):45:45 -> <init>
+    152:156:void <init>(android.content.Context):47:47 -> <init>
+    157:163:void <init>(android.content.Context):48:48 -> <init>
+    164:168:void <init>(android.content.Context):47:47 -> <init>
+    169:173:void <init>(android.content.Context):49:49 -> <init>
+    174:178:void <init>(android.content.Context):50:50 -> <init>
+    179:183:void <init>(android.content.Context):49:49 -> <init>
+    184:211:void <init>(android.content.Context):51:51 -> <init>
+    212:234:void <init>(android.content.Context):53:53 -> <init>
+    235:245:void <init>(android.content.Context):56:56 -> <init>
+    246:249:void <init>(android.content.Context):57:57 -> <init>
+    250:252:void <init>(android.content.Context):58:58 -> <init>
+    253:260:void <init>(android.content.Context):59:59 -> <init>
+    261:268:void <init>(android.content.Context):60:60 -> <init>
+    269:270:void <init>(android.content.Context):56:56 -> <init>
+    271:279:void <init>(android.content.Context):66:66 -> <init>
+    0:3:void $r8$lambda$aYmzDzBl7uTQiz3MOIHfr769HKo(dev.jairoserrano.solardream.ui.FlowView,android.animation.ValueAnimator):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:2:android.os.Handler access$getHandler$p(dev.jairoserrano.solardream.ui.FlowView):25:25 -> access$getCompanion$p
+    0:2:dev.jairoserrano.solardream.ui.FlowView$Companion access$getCompanion$p():25 -> access$getCompanion$p
+    0:2:android.os.Handler access$getHandler$p(dev.jairoserrano.solardream.ui.FlowView):25:25 -> access$getHandler$p
+    0:2:android.os.Handler access$getHandler$p(dev.jairoserrano.solardream.ui.FlowView):25:25 -> access$getSHIFTS$cp
+    0:2:java.util.List access$getSHIFTS$cp():25 -> access$getSHIFTS$cp
+    0:2:android.os.Handler access$getHandler$p(dev.jairoserrano.solardream.ui.FlowView):25:25 -> access$getShiftIndex$p
+    0:2:int access$getShiftIndex$p(dev.jairoserrano.solardream.ui.FlowView):25 -> access$getShiftIndex$p
+    0:2:android.os.Handler access$getHandler$p(dev.jairoserrano.solardream.ui.FlowView):25:25 -> access$setShiftIndex$p
+    0:2:void access$setShiftIndex$p(dev.jairoserrano.solardream.ui.FlowView,int):25 -> access$setShiftIndex$p
+    5:18:void animator$lambda$1$lambda$0(dev.jairoserrano.solardream.ui.FlowView,android.animation.ValueAnimator):61:61 -> animator$lambda$1$lambda$0
+    19:22:void animator$lambda$1$lambda$0(dev.jairoserrano.solardream.ui.FlowView,android.animation.ValueAnimator):62:62 -> animator$lambda$1$lambda$0
+    23:33:void <init>(android.content.Context):50:50 -> animator$lambda$1$lambda$0
+    23:33:void kotlin.jvm.internal.Intrinsics.throwJavaNpe(java.lang.String):50 -> animator$lambda$1$lambda$0
+    23:33:void kotlin.jvm.internal.Intrinsics.checkNotNull(java.lang.Object,java.lang.String):31 -> animator$lambda$1$lambda$0
+    23:33:void animator$lambda$1$lambda$0(dev.jairoserrano.solardream.ui.FlowView,android.animation.ValueAnimator):61 -> animator$lambda$1$lambda$0
+    3:5:void drawAtmosphere(android.graphics.Canvas,boolean,int):175:175 -> drawAtmosphere
+    6:14:void drawAtmosphere(android.graphics.Canvas,boolean,int):176:176 -> drawAtmosphere
+    15:29:void drawAtmosphere(android.graphics.Canvas,boolean,int):177:177 -> drawAtmosphere
+    30:38:void drawAtmosphere(android.graphics.Canvas,boolean,int):179:179 -> drawAtmosphere
+    39:43:void drawAtmosphere(android.graphics.Canvas,boolean,int):180:180 -> drawAtmosphere
+    44:68:void drawAtmosphere(android.graphics.Canvas,boolean,int):182:182 -> drawAtmosphere
+    69:71:void drawAtmosphere(android.graphics.Canvas,boolean,int):184:184 -> drawAtmosphere
+    72:73:void drawAtmosphere(android.graphics.Canvas,boolean,int):183:183 -> drawAtmosphere
+    74:76:void drawAtmosphere(android.graphics.Canvas,boolean,int):182:182 -> drawAtmosphere
+    77:91:void drawAtmosphere(android.graphics.Canvas,boolean,int):187:187 -> drawAtmosphere
+    92:98:void drawAtmosphere(android.graphics.Canvas,boolean,int):188:188 -> drawAtmosphere
+    99:107:void drawAtmosphere(android.graphics.Canvas,boolean,int):189:189 -> drawAtmosphere
+    108:119:void drawAtmosphere(android.graphics.Canvas,boolean,int):190:190 -> drawAtmosphere
+    120:147:void drawAtmosphere(android.graphics.Canvas,boolean,int):191:191 -> drawAtmosphere
+    148:152:void drawAtmosphere(android.graphics.Canvas,boolean,int):193:193 -> drawAtmosphere
+    153:165:void drawAtmosphere(android.graphics.Canvas,boolean,int):194:194 -> drawAtmosphere
+    8:41:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):337:337 -> drawFlow
+    42:44:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):338:338 -> drawFlow
+    45:71:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):339:339 -> drawFlow
+    72:74:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):340:340 -> drawFlow
+    75:89:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):341:341 -> drawFlow
+    90:101:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):342:342 -> drawFlow
+    102:114:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):344:344 -> drawFlow
+    115:138:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):346:346 -> drawFlow
+    139:147:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):349:349 -> drawFlow
+    148:154:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):350:350 -> drawFlow
+    155:159:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):351:351 -> drawFlow
+    160:166:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):352:352 -> drawFlow
+    167:171:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):353:353 -> drawFlow
+    172:176:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):354:354 -> drawFlow
+    177:195:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):355:355 -> drawFlow
+    196:198:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):359:359 -> drawFlow
+    199:203:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):360:360 -> drawFlow
+    204:213:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):361:361 -> drawFlow
+    214:222:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):362:362 -> drawFlow
+    223:229:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):363:363 -> drawFlow
+    230:247:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):364:364 -> drawFlow
+    248:269:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):366:366 -> drawFlow
+    270:278:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):368:368 -> drawFlow
+    279:281:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):365:365 -> drawFlow
+    282:317:void drawFlow(android.graphics.Canvas,float,float,dev.jairoserrano.solardream.ui.Arrow,int):370:370 -> drawFlow
+    14:16:void drawHeader(android.graphics.Canvas):198:198 -> drawHeader
+    17:42:void drawHeader(android.graphics.Canvas):199:199 -> drawHeader
+    43:59:void drawHeader(android.graphics.Canvas):202:202 -> drawHeader
+    60:85:void drawHeader(android.graphics.Canvas):203:203 -> drawHeader
+    86:91:void drawHeader(android.graphics.Canvas):202:202 -> drawHeader
+    92:124:void drawHeader(android.graphics.Canvas):205:205 -> drawHeader
+    125:169:void drawHeader(android.graphics.Canvas):206:206 -> drawHeader
+    170:188:void drawHeader(android.graphics.Canvas):208:208 -> drawHeader
+    189:207:void drawHeader(android.graphics.Canvas):209:209 -> drawHeader
+    208:212:void drawHeader(android.graphics.Canvas):210:210 -> drawHeader
+    213:215:void drawHeader(android.graphics.Canvas):211:211 -> drawHeader
+    216:227:void drawHeader(android.graphics.Canvas):212:212 -> drawHeader
+    228:248:void drawHeader(android.graphics.Canvas):214:214 -> drawHeader
+    249:272:void drawHeader(android.graphics.Canvas):215:215 -> drawHeader
+    273:284:void drawHeader(android.graphics.Canvas):216:216 -> drawHeader
+    285:287:void drawHeader(android.graphics.Canvas):213:213 -> drawHeader
+    288:315:void drawHeader(android.graphics.Canvas):218:218 -> drawHeader
+    316:360:void drawHeader(android.graphics.Canvas):219:219 -> drawHeader
+    361:396:void drawHeader(android.graphics.Canvas):220:220 -> drawHeader
+    2:13:void drawHome(android.graphics.Canvas,int):239:239 -> drawHome
+    14:28:void drawHome(android.graphics.Canvas,int):240:240 -> drawHome
+    29:31:void drawHome(android.graphics.Canvas,int):241:241 -> drawHome
+    32:40:void drawHome(android.graphics.Canvas,int):242:242 -> drawHome
+    41:47:void drawHome(android.graphics.Canvas,int):243:243 -> drawHome
+    48:54:void drawHome(android.graphics.Canvas,int):244:244 -> drawHome
+    55:61:void drawHome(android.graphics.Canvas,int):245:245 -> drawHome
+    62:78:void drawHome(android.graphics.Canvas,int):246:246 -> drawHome
+    79:91:void drawHome(android.graphics.Canvas,int):247:247 -> drawHome
+    92:102:void drawHome(android.graphics.Canvas,int):248:248 -> drawHome
+    103:113:void drawHome(android.graphics.Canvas,int):251:251 -> drawHome
+    114:116:void drawHome(android.graphics.Canvas,int):252:252 -> drawHome
+    117:123:void drawHome(android.graphics.Canvas,int):253:253 -> drawHome
+    124:130:void drawHome(android.graphics.Canvas,int):254:254 -> drawHome
+    131:137:void drawHome(android.graphics.Canvas,int):255:255 -> drawHome
+    138:148:void drawHome(android.graphics.Canvas,int):256:256 -> drawHome
+    149:151:void drawHome(android.graphics.Canvas,int):257:257 -> drawHome
+    152:160:void drawHome(android.graphics.Canvas,int):258:258 -> drawHome
+    161:168:void drawHome(android.graphics.Canvas,int):259:259 -> drawHome
+    169:177:void drawHome(android.graphics.Canvas,int):260:260 -> drawHome
+    178:185:void drawHome(android.graphics.Canvas,int):261:261 -> drawHome
+    186:188:void drawHome(android.graphics.Canvas,int):262:262 -> drawHome
+    189:195:void drawHome(android.graphics.Canvas,int):263:263 -> drawHome
+    196:202:void drawHome(android.graphics.Canvas,int):264:264 -> drawHome
+    203:210:void drawHome(android.graphics.Canvas,int):265:265 -> drawHome
+    211:213:void drawHome(android.graphics.Canvas,int):266:266 -> drawHome
+    214:220:void drawHome(android.graphics.Canvas,int):267:267 -> drawHome
+    221:231:void drawHome(android.graphics.Canvas,int):269:269 -> drawHome
+    232:234:void drawHome(android.graphics.Canvas,int):270:270 -> drawHome
+    235:241:void drawHome(android.graphics.Canvas,int):271:271 -> drawHome
+    242:244:void drawHome(android.graphics.Canvas,int):272:272 -> drawHome
+    245:254:void drawHome(android.graphics.Canvas,int):273:273 -> drawHome
+    255:272:void drawHome(android.graphics.Canvas,int):274:274 -> drawHome
+    273:288:void drawHome(android.graphics.Canvas,int):275:275 -> drawHome
+    289:303:void drawHome(android.graphics.Canvas,int):276:276 -> drawHome
+    304:321:void drawHome(android.graphics.Canvas,int):277:277 -> drawHome
+    322:330:void drawHome(android.graphics.Canvas,int):278:278 -> drawHome
+    331:336:void drawHome(android.graphics.Canvas,int):279:279 -> drawHome
+    337:350:void drawHome(android.graphics.Canvas,int):280:280 -> drawHome
+    351:355:void drawHome(android.graphics.Canvas,int):281:281 -> drawHome
+    356:363:void drawHome(android.graphics.Canvas,int):282:282 -> drawHome
+    364:380:void drawHome(android.graphics.Canvas,int):283:283 -> drawHome
+    381:385:void drawHome(android.graphics.Canvas,int):284:284 -> drawHome
+    386:402:void drawHome(android.graphics.Canvas,int):285:285 -> drawHome
+    403:411:void drawHome(android.graphics.Canvas,int):286:286 -> drawHome
+    4:11:int kotlin.text.StringsKt__StringsKt.indexOf(java.lang.CharSequence,char,int,boolean):0:0 -> drawMetric
+    4:11:int kotlin.text.StringsKt__StringsKt.indexOf$default(java.lang.CharSequence,char,int,boolean,int,java.lang.Object):1098 -> drawMetric
+    4:11:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):374 -> drawMetric
+    12:15:int kotlin.text.StringsKt__StringsKt.indexOf(java.lang.CharSequence,char,int,boolean):1102:1102 -> drawMetric
+    12:15:int kotlin.text.StringsKt__StringsKt.indexOf$default(java.lang.CharSequence,char,int,boolean,int,java.lang.Object):1098 -> drawMetric
+    12:15:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):374 -> drawMetric
+    16:32:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):375:375 -> drawMetric
+    33:49:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):376:376 -> drawMetric
+    50:52:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):377:377 -> drawMetric
+    53:59:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):378:378 -> drawMetric
+    60:66:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):379:379 -> drawMetric
+    67:72:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):380:380 -> drawMetric
+    73:79:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):381:381 -> drawMetric
+    80:102:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):382:382 -> drawMetric
+    103:131:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):384:384 -> drawMetric
+    132:143:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):385:385 -> drawMetric
+    144:164:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):386:386 -> drawMetric
+    165:168:void drawMetric(android.graphics.Canvas,java.lang.String,float,float,float,int):385:385 -> drawMetric
+    1:3:void drawPylon(android.graphics.Canvas,float,float,int,int):316:316 -> drawPylon
+    4:13:void drawPylon(android.graphics.Canvas,float,float,int,int):317:317 -> drawPylon
+    14:18:void drawPylon(android.graphics.Canvas,float,float,int,int):318:318 -> drawPylon
+    19:26:void drawPylon(android.graphics.Canvas,float,float,int,int):319:319 -> drawPylon
+    27:36:void drawPylon(android.graphics.Canvas,float,float,int,int):320:320 -> drawPylon
+    37:50:void drawPylon(android.graphics.Canvas,float,float,int,int):321:321 -> drawPylon
+    51:63:void drawPylon(android.graphics.Canvas,float,float,int,int):322:322 -> drawPylon
+    64:74:void drawPylon(android.graphics.Canvas,float,float,int,int):323:323 -> drawPylon
+    75:85:void drawPylon(android.graphics.Canvas,float,float,int,int):324:324 -> drawPylon
+    86:96:void drawPylon(android.graphics.Canvas,float,float,int,int):325:325 -> drawPylon
+    97:107:void drawPylon(android.graphics.Canvas,float,float,int,int):326:326 -> drawPylon
+    108:118:void drawPylon(android.graphics.Canvas,float,float,int,int):327:327 -> drawPylon
+    119:132:void drawPylon(android.graphics.Canvas,float,float,int,int):328:328 -> drawPylon
+    133:146:void drawPylon(android.graphics.Canvas,float,float,int,int):329:329 -> drawPylon
+    147:161:void drawPylon(android.graphics.Canvas,float,float,int,int):330:330 -> drawPylon
+    162:174:void drawPylon(android.graphics.Canvas,float,float,int,int):331:331 -> drawPylon
+    175:179:void drawPylon(android.graphics.Canvas,float,float,int,int):333:333 -> drawPylon
+    3:7:void drawSatellite(android.graphics.Canvas,float,int,int,boolean):224:224 -> drawSatellite
+    8:16:void drawSatellite(android.graphics.Canvas,float,int,int,boolean):225:225 -> drawSatellite
+    17:23:void drawSatellite(android.graphics.Canvas,float,int,int,boolean):226:226 -> drawSatellite
+    24:32:void drawSatellite(android.graphics.Canvas,float,int,int,boolean):227:227 -> drawSatellite
+    33:41:void drawSatellite(android.graphics.Canvas,float,int,int,boolean):228:228 -> drawSatellite
+    42:48:void drawSatellite(android.graphics.Canvas,float,int,int,boolean):229:229 -> drawSatellite
+    49:60:void drawSatellite(android.graphics.Canvas,float,int,int,boolean):230:230 -> drawSatellite
+    61:63:void drawSatellite(android.graphics.Canvas,float,int,int,boolean):231:231 -> drawSatellite
+    64:76:void drawSatellite(android.graphics.Canvas,float,int,int,boolean):232:232 -> drawSatellite
+    77:89:void drawSatellite(android.graphics.Canvas,float,int,int,boolean):233:233 -> drawSatellite
+    90:106:void drawSatellite(android.graphics.Canvas,float,int,int,boolean):234:234 -> drawSatellite
+    7:9:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):290:290 -> drawSolarPanel
+    10:14:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):291:291 -> drawSolarPanel
+    15:25:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):292:292 -> drawSolarPanel
+    26:33:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):293:293 -> drawSolarPanel
+    34:42:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):294:294 -> drawSolarPanel
+    43:45:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):295:295 -> drawSolarPanel
+    46:72:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):296:296 -> drawSolarPanel
+    73:85:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):299:299 -> drawSolarPanel
+    86:100:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):301:301 -> drawSolarPanel
+    101:113:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):302:302 -> drawSolarPanel
+    114:124:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):303:303 -> drawSolarPanel
+    125:133:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):304:304 -> drawSolarPanel
+    134:146:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):305:305 -> drawSolarPanel
+    147:166:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):306:306 -> drawSolarPanel
+    167:183:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):309:309 -> drawSolarPanel
+    184:209:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):310:310 -> drawSolarPanel
+    210:214:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):309:309 -> drawSolarPanel
+    215:219:void drawSolarPanel(android.graphics.Canvas,float,float,int,int):312:312 -> drawSolarPanel
+    8:26:void drawSummary(android.graphics.Canvas,int):390:390 -> drawSummary
+    27:36:void drawSummary(android.graphics.Canvas,int):391:391 -> drawSummary
+    37:45:void drawSummary(android.graphics.Canvas,int):392:392 -> drawSummary
+    46:48:void drawSummary(android.graphics.Canvas,int):393:393 -> drawSummary
+    49:84:void drawSummary(android.graphics.Canvas,int):394:394 -> drawSummary
+    85:87:void drawSummary(android.graphics.Canvas,int):395:395 -> drawSummary
+    88:103:void drawSummary(android.graphics.Canvas,int):396:396 -> drawSummary
+    104:108:void drawSummary(android.graphics.Canvas,int):397:397 -> drawSummary
+    109:118:void drawSummary(android.graphics.Canvas,int):398:398 -> drawSummary
+    119:128:void drawSummary(android.graphics.Canvas,int):399:399 -> drawSummary
+    129:133:void drawSummary(android.graphics.Canvas,int):400:400 -> drawSummary
+    134:143:void drawSummary(android.graphics.Canvas,int):401:401 -> drawSummary
+    144:152:void drawSummary(android.graphics.Canvas,int):402:402 -> drawSummary
+    153:164:void drawSummary(android.graphics.Canvas,int):403:403 -> drawSummary
+    165:200:void drawSummary(android.graphics.Canvas,int):404:404 -> drawSummary
+    201:228:void drawSummary(android.graphics.Canvas,int):405:405 -> drawSummary
+    229:231:void drawSummary(android.graphics.Canvas,int):404:404 -> drawSummary
+    232:259:void drawSummary(android.graphics.Canvas,int):406:406 -> drawSummary
+    260:310:void drawSummary(android.graphics.Canvas,int):408:408 -> drawSummary
+    311:345:void drawSummary(android.graphics.Canvas,int):409:409 -> drawSummary
+    346:348:void drawSummary(android.graphics.Canvas,int):410:410 -> drawSummary
+    349:366:void drawSummary(android.graphics.Canvas,int):411:411 -> drawSummary
+    367:391:void drawSummary(android.graphics.Canvas,int):412:412 -> drawSummary
+    392:404:void drawSummary(android.graphics.Canvas,int):416:416 -> drawSummary
+    405:406:void drawSummary(android.graphics.Canvas,int):412:412 -> drawSummary
+    407:409:void kotlin.NoWhenBranchMatchedException.<init>():9:9 -> drawSummary
+    407:409:void drawSummary(android.graphics.Canvas,int):412 -> drawSummary
+    410:410:void drawSummary(android.graphics.Canvas,int):412:412 -> drawSummary
+    411:422:void drawSummary(android.graphics.Canvas,int):415:415 -> drawSummary
+    423:452:void drawSummary(android.graphics.Canvas,int):414:414 -> drawSummary
+    453:464:void drawSummary(android.graphics.Canvas,int):413:413 -> drawSummary
+    465:467:void drawSummary(android.graphics.Canvas,int):412:412 -> drawSummary
+    468:501:void drawSummary(android.graphics.Canvas,int):418:418 -> drawSummary
+    502:524:void drawSummary(android.graphics.Canvas,int):419:419 -> drawSummary
+    525:536:void drawSummary(android.graphics.Canvas,int):423:423 -> drawSummary
+    537:538:void drawSummary(android.graphics.Canvas,int):419:419 -> drawSummary
+    539:541:void kotlin.NoWhenBranchMatchedException.<init>():9:9 -> drawSummary
+    539:541:void drawSummary(android.graphics.Canvas,int):419 -> drawSummary
+    542:542:void drawSummary(android.graphics.Canvas,int):419:419 -> drawSummary
+    543:554:void drawSummary(android.graphics.Canvas,int):422:422 -> drawSummary
+    555:566:void drawSummary(android.graphics.Canvas,int):421:421 -> drawSummary
+    567:577:void drawSummary(android.graphics.Canvas,int):420:420 -> drawSummary
+    578:580:void drawSummary(android.graphics.Canvas,int):419:419 -> drawSummary
+    581:633:void drawSummary(android.graphics.Canvas,int):425:425 -> drawSummary
+    634:675:void drawSummary(android.graphics.Canvas,int):426:426 -> drawSummary
+    676:710:void drawSummary(android.graphics.Canvas,int):427:427 -> drawSummary
+    0:5:void fill(int,int):443:443 -> fill
+    6:12:void fill(int,int):444:444 -> fill
+    13:17:void fill(int,int):445:445 -> fill
+    18:23:void fill(int,int):446:446 -> fill
+    6:9:void fill$default(dev.jairoserrano.solardream.ui.FlowView,int,int,int,java.lang.Object):442:442 -> fill$default
+    0:2:void label(android.graphics.Canvas,java.lang.String,float,float,float,int,android.graphics.Typeface,int,android.graphics.Paint$Align):435:435 -> label
+    3:7:void label(android.graphics.Canvas,java.lang.String,float,float,float,int,android.graphics.Typeface,int,android.graphics.Paint$Align):436:436 -> label
+    8:12:void label(android.graphics.Canvas,java.lang.String,float,float,float,int,android.graphics.Typeface,int,android.graphics.Paint$Align):437:437 -> label
+    13:17:void label(android.graphics.Canvas,java.lang.String,float,float,float,int,android.graphics.Typeface,int,android.graphics.Paint$Align):438:438 -> label
+    18:23:void label(android.graphics.Canvas,java.lang.String,float,float,float,int,android.graphics.Typeface,int,android.graphics.Paint$Align):439:439 -> label
+    7:43:void label$default(dev.jairoserrano.solardream.ui.FlowView,android.graphics.Canvas,java.lang.String,float,float,float,int,android.graphics.Typeface,int,android.graphics.Paint$Align,int,java.lang.Object):433:433 -> label$default
+    44:47:void label$default(dev.jairoserrano.solardream.ui.FlowView,android.graphics.Canvas,java.lang.String,float,float,float,int,android.graphics.Typeface,int,android.graphics.Paint$Align,int,java.lang.Object):431:431 -> label$default
+    0:2:void line(int,float,int):450:450 -> line
+    3:9:void line(int,float,int):451:451 -> line
+    10:14:void line(int,float,int):452:452 -> line
+    15:21:void line(int,float,int):453:453 -> line
+    22:29:void line(int,float,int):454:454 -> line
+    6:9:void line$default(dev.jairoserrano.solardream.ui.FlowView,int,float,int,int,java.lang.Object):449:449 -> line$default
+    0:3:void onAttachedToWindow():86:86 -> onAttachedToWindow
+    4:5:void onAttachedToWindow():87:87 -> onAttachedToWindow
+    6:8:void onAttachedToWindow():88:88 -> onAttachedToWindow
+    9:19:void onAttachedToWindow():89:89 -> onAttachedToWindow
+    1:2:void onDetachedFromWindow():93:93 -> onDetachedFromWindow
+    3:7:void onDetachedFromWindow():94:94 -> onDetachedFromWindow
+    8:14:void onDetachedFromWindow():95:95 -> onDetachedFromWindow
+    15:18:void onDetachedFromWindow():96:96 -> onDetachedFromWindow
+    9:14:void onDraw(android.graphics.Canvas):114:114 -> onDraw
+    15:17:void onDraw(android.graphics.Canvas):115:115 -> onDraw
+    18:43:void onDraw(android.graphics.Canvas):116:116 -> onDraw
+    44:46:void onDraw(android.graphics.Canvas):118:118 -> onDraw
+    47:67:void onDraw(android.graphics.Canvas):119:119 -> onDraw
+    68:73:void onDraw(android.graphics.Canvas):120:120 -> onDraw
+    74:76:void onDraw(android.graphics.Canvas):121:121 -> onDraw
+    77:83:void onDraw(android.graphics.Canvas):122:122 -> onDraw
+    84:96:void onDraw(android.graphics.Canvas):123:123 -> onDraw
+    97:101:void onDraw(android.graphics.Canvas):124:124 -> onDraw
+    102:111:void onDraw(android.graphics.Canvas):125:125 -> onDraw
+    112:113:java.lang.Object kotlin.Pair.component1():0:0 -> onDraw
+    112:113:void onDraw(android.graphics.Canvas):125 -> onDraw
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    114:125:void onDraw(android.graphics.Canvas):125:125 -> onDraw
+    126:128:void onDraw(android.graphics.Canvas):126:126 -> onDraw
+    129:143:void onDraw(android.graphics.Canvas):128:128 -> onDraw
+    144:170:void onDraw(android.graphics.Canvas):129:129 -> onDraw
+    171:199:void onDraw(android.graphics.Canvas):131:131 -> onDraw
+    200:202:void onDraw(android.graphics.Canvas):137:137 -> onDraw
+    203:205:void onDraw(android.graphics.Canvas):138:138 -> onDraw
+    206:225:void onDraw(android.graphics.Canvas):139:139 -> onDraw
+    226:249:void onDraw(android.graphics.Canvas):140:140 -> onDraw
+    250:257:void onDraw(android.graphics.Canvas):141:141 -> onDraw
+    258:260:void onDraw(android.graphics.Canvas):142:142 -> onDraw
+    261:263:void onDraw(android.graphics.Canvas):143:143 -> onDraw
+    264:291:void onDraw(android.graphics.Canvas):144:144 -> onDraw
+    292:294:void onDraw(android.graphics.Canvas):145:145 -> onDraw
+    295:347:void onDraw(android.graphics.Canvas):147:147 -> onDraw
+    348:391:void onDraw(android.graphics.Canvas):148:148 -> onDraw
+    392:426:void onDraw(android.graphics.Canvas):149:149 -> onDraw
+    427:445:void onDraw(android.graphics.Canvas):150:150 -> onDraw
+    446:462:void onDraw(android.graphics.Canvas):151:151 -> onDraw
+    463:480:void onDraw(android.graphics.Canvas):152:152 -> onDraw
+    481:503:void onDraw(android.graphics.Canvas):155:155 -> onDraw
+    504:515:void onDraw(android.graphics.Canvas):156:156 -> onDraw
+    516:527:void onDraw(android.graphics.Canvas):157:157 -> onDraw
+    528:530:void onDraw(android.graphics.Canvas):154:154 -> onDraw
+    531:548:void onDraw(android.graphics.Canvas):160:160 -> onDraw
+    549:570:void onDraw(android.graphics.Canvas):161:161 -> onDraw
+    571:592:void onDraw(android.graphics.Canvas):162:162 -> onDraw
+    593:614:void onDraw(android.graphics.Canvas):163:163 -> onDraw
+    615:626:void onDraw(android.graphics.Canvas):164:164 -> onDraw
+    627:629:void onDraw(android.graphics.Canvas):159:159 -> onDraw
+    630:655:void onDraw(android.graphics.Canvas):166:166 -> onDraw
+    656:687:void onDraw(android.graphics.Canvas):167:167 -> onDraw
+    688:711:void onDraw(android.graphics.Canvas):168:168 -> onDraw
+    712:714:void onDraw(android.graphics.Canvas):167:167 -> onDraw
+    715:735:void onDraw(android.graphics.Canvas):169:169 -> onDraw
+    736:738:void onDraw(android.graphics.Canvas):170:170 -> onDraw
+    739:742:void onDraw(android.graphics.Canvas):171:171 -> onDraw
+    0:2:void onWindowVisibilityChanged(int):100:100 -> onWindowVisibilityChanged
+    3:6:void onWindowVisibilityChanged(int):101:101 -> onWindowVisibilityChanged
+    0:4:void polygon(float[]):463:463 -> polygon
+    5:15:void polygon(float[]):464:464 -> polygon
+    16:21:void polygon(float[]):465:465 -> polygon
+    22:24:void <init>(android.content.Context):53:53 -> polygon
+    22:24:kotlin.ranges.IntRange kotlin.ranges.IntRange.access$getEMPTY$cp():53 -> polygon
+    22:24:kotlin.ranges.IntRange kotlin.ranges.IntRange$Companion.getEMPTY():85 -> polygon
+    22:24:kotlin.ranges.IntRange kotlin.ranges.RangesKt___RangesKt.until(int,int):1095 -> polygon
+    22:24:void polygon(float[]):465 -> polygon
+    25:27:kotlin.ranges.IntRange kotlin.ranges.RangesKt___RangesKt.until(int,int):1096:1096 -> polygon
+    25:27:void polygon(float[]):465 -> polygon
+    28:31:void <init>(android.content.Context):53:53 -> polygon
+    28:31:void kotlin.ranges.IntRange.<init>(int,int):53 -> polygon
+    28:31:kotlin.ranges.IntRange kotlin.ranges.RangesKt___RangesKt.until(int,int):1096 -> polygon
+    28:31:void polygon(float[]):465 -> polygon
+    32:36:void polygon(float[]):465:465 -> polygon
+    37:46:kotlin.ranges.IntProgression kotlin.ranges.RangesKt___RangesKt.step(kotlin.ranges.IntProgression,int):964:964 -> polygon
+    37:46:void polygon(float[]):465 -> polygon
+    47:62:void kotlin.ranges.IntProgression.<init>(int,int,int):98:98 -> polygon
+    47:62:kotlin.ranges.IntProgression kotlin.ranges.IntProgression$Companion.fromClosedRange(int,int,int):133 -> polygon
+    47:62:kotlin.ranges.IntProgression kotlin.ranges.RangesKt___RangesKt.step(kotlin.ranges.IntProgression,int):964 -> polygon
+    47:62:void polygon(float[]):465 -> polygon
+    63:77:void polygon(float[]):465:465 -> polygon
+    78:83:void polygon(float[]):466:466 -> polygon
+    84:91:void onAttachedToWindow():87:87 -> polygon
+    84:91:void kotlin.ranges.IntProgression.<init>(int,int,int):87 -> polygon
+    84:91:kotlin.ranges.IntProgression kotlin.ranges.IntProgression$Companion.fromClosedRange(int,int,int):133 -> polygon
+    84:91:kotlin.ranges.IntProgression kotlin.ranges.RangesKt___RangesKt.step(kotlin.ranges.IntProgression,int):964 -> polygon
+    84:91:void polygon(float[]):465 -> polygon
+    92:99:void onAttachedToWindow():86:86 -> polygon
+    92:99:void kotlin.ranges.IntProgression.<init>(int,int,int):86 -> polygon
+    92:99:kotlin.ranges.IntProgression kotlin.ranges.IntProgression$Companion.fromClosedRange(int,int,int):133 -> polygon
+    92:99:kotlin.ranges.IntProgression kotlin.ranges.RangesKt___RangesKt.step(kotlin.ranges.IntProgression,int):964 -> polygon
+    92:99:void polygon(float[]):465 -> polygon
+    5:6:void render(dev.jairoserrano.solardream.ui.FlowState):75:75 -> render
+    7:22:void render(dev.jairoserrano.solardream.ui.FlowState):76:76 -> render
+    23:36:void render(dev.jairoserrano.solardream.ui.FlowState):77:77 -> render
+    37:50:void render(dev.jairoserrano.solardream.ui.FlowState):78:78 -> render
+    51:62:void render(dev.jairoserrano.solardream.ui.FlowState):79:79 -> render
+    63:126:void render(dev.jairoserrano.solardream.ui.FlowState):80:80 -> render
+    127:129:void render(dev.jairoserrano.solardream.ui.FlowState):79:79 -> render
+    130:132:void render(dev.jairoserrano.solardream.ui.FlowState):81:81 -> render
+    133:136:void render(dev.jairoserrano.solardream.ui.FlowState):82:82 -> render
+    0:4:void roundRect(android.graphics.Canvas,float,float,float,float,float):458:458 -> roundRect
+    5:12:void roundRect(android.graphics.Canvas,float,float,float,float,float):459:459 -> roundRect
+    0:21:void updateAnimation():105:105 -> updateAnimation
+    22:41:void updateAnimation():106:106 -> updateAnimation
+    42:55:void updateAnimation():107:107 -> updateAnimation
+    56:61:void updateAnimation():109:109 -> updateAnimation
+dev.jairoserrano.solardream.ui.FlowView$$ExternalSyntheticLambda0 -> dev.jairoserrano.solardream.ui.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    dev.jairoserrano.solardream.ui.FlowView dev.jairoserrano.solardream.ui.FlowView$$InternalSyntheticLambda$1$6c30dd37ea1db2685503629e17c0940f7e1f4b11d54a3c5b6e606628342e17e1$0.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:5:void <init>(dev.jairoserrano.solardream.ui.FlowView):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:5:void onAnimationUpdate(android.animation.ValueAnimator):0:0 -> onAnimationUpdate
+      # {"id":"com.android.tools.r8.synthesized"}
+dev.jairoserrano.solardream.ui.FlowView$Companion -> dev.jairoserrano.solardream.ui.FlowView$Companion:
+# {"id":"sourceFile","fileName":"FlowView.kt"}
+    1:1:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lkotlin/jvm/internal/e;)V"}
+    2:2:void <init>():469:469 -> <init>
+    0:4:java.util.List getSHIFTS():481:481 -> getSHIFTS
+dev.jairoserrano.solardream.ui.FlowView$WhenMappings -> dev.jairoserrano.solardream.ui.FlowView$WhenMappings:
+# {"id":"sourceFile","fileName":"FlowView.kt"}
+dev.jairoserrano.solardream.ui.FlowView$shifter$1 -> dev.jairoserrano.solardream.ui.FlowView$shifter$1:
+# {"id":"sourceFile","fileName":"FlowView.kt"}
+    2:5:void <init>(dev.jairoserrano.solardream.ui.FlowView):66:66 -> <init>
+    0:23:void run():68:68 -> run
+    24:28:void run():69:69 -> run
+    29:41:void run():70:70 -> run
+dev.jairoserrano.solardream.ui.GridMode -> dev.jairoserrano.solardream.ui.GridMode:
+# {"id":"sourceFile","fileName":"FlowState.kt"}
+    kotlin.enums.EnumEntries $ENTRIES -> $ENTRIES
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/a;"}
+    0:50:void <clinit>():9:9 -> <clinit>
+    51:55:kotlin.enums.EnumEntries kotlin.enums.EnumEntriesKt.enumEntries(java.lang.Enum[]):43:43 -> <clinit>
+    51:55:void <clinit>():9 -> <clinit>
+    56:58:void <clinit>():9:9 -> <clinit>
+    0:3:void <init>(java.lang.String,int):9:9 -> <init>
+    0:2:d.EnumEntries getEntries():0:0 -> getEntries
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ld/a;"}
+    6:8:dev.jairoserrano.solardream.ui.GridMode valueOf(java.lang.String):9:9 -> valueOf
+    6:8:dev.jairoserrano.solardream.ui.GridMode[] values():9:9 -> values
+kotlin.ExceptionsKt__ExceptionsKt -> R8$$REMOVED$$CLASS$$0:
+# {"id":"sourceFile","fileName":"Exceptions.kt"}
+kotlin.NoWhenBranchMatchedException -> b.a:
+# {"id":"sourceFile","fileName":"NoWhenBranchMatchedException.kt"}
+kotlin.Pair -> b.b:
+# {"id":"sourceFile","fileName":"Tuples.kt"}
+    java.lang.Object first -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/io/Serializable;"}
+    java.lang.Object second -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/lang/Number;"}
+    0:2:void <init>(java.lang.Object,java.lang.Object):26:26 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/io/Serializable;Ljava/lang/Number;)V"}
+    3:4:void <init>(java.lang.Object,java.lang.Object):27:27 -> <init>
+    5:7:void <init>(java.lang.Object,java.lang.Object):28:28 -> <init>
+    27:34:boolean kotlin.jvm.internal.Intrinsics.areEqual(java.lang.Object,java.lang.Object):169:169 -> equals
+    27:34:boolean equals(java.lang.Object):0 -> equals
+    0:19:int hashCode():0:0 -> hashCode
+    0:31:java.lang.String toString():34:34 -> toString
+kotlin.Result -> R8$$REMOVED$$CLASS$$1:
+# {"id":"sourceFile","fileName":"Result.kt"}
+kotlin.Result$Failure -> b.c:
+# {"id":"sourceFile","fileName":"Result.kt"}
+    java.lang.Throwable exception -> a
+    0:2:void <init>(java.lang.Throwable):105:105 -> <init>
+    3:5:void <init>(java.lang.Throwable):106:106 -> <init>
+    0:19:boolean equals(java.lang.Object):109:109 -> equals
+    0:6:int hashCode():110:110 -> hashCode
+    0:21:java.lang.String toString():111:111 -> toString
+kotlin.ResultKt -> R8$$REMOVED$$CLASS$$2:
+# {"id":"sourceFile","fileName":"Result.kt"}
+kotlin.TuplesKt -> R8$$REMOVED$$CLASS$$3:
+# {"id":"sourceFile","fileName":"Tuples.kt"}
+kotlin.collections.AbstractCollection$toString$1 -> R8$$REMOVED$$CLASS$$4:
+# {"id":"sourceFile","fileName":"AbstractCollection.kt"}
+kotlin.collections.AbstractList -> c.d:
+# {"id":"sourceFile","fileName":"AbstractList.kt"}
+    0:3:void kotlin.collections.AbstractCollection.<init>():14:14 -> <init>
+    0:3:void <init>():21 -> <init>
+    int kotlin.collections.AbstractCollection.getSize() -> a
+    1:1:void add(int,java.lang.Object):0:0 -> add
+    2:2:boolean kotlin.collections.AbstractCollection.add(java.lang.Object):0:0 -> add
+    1:1:boolean addAll(int,java.util.Collection):0:0 -> addAll
+    2:2:boolean kotlin.collections.AbstractCollection.addAll(java.util.Collection):0:0 -> addAll
+    0:7:void kotlin.collections.AbstractCollection.clear():0:0 -> clear
+    0:7:boolean kotlin.collections.AbstractCollection.contains(java.lang.Object):51:51 -> contains
+    8:21:boolean kotlin.collections.AbstractCollection.contains(java.lang.Object):52:52 -> contains
+    22:29:boolean kotlin.collections.AbstractCollection.contains(java.lang.Object):19:19 -> contains
+    5:12:boolean kotlin.collections.AbstractCollection.containsAll(java.util.Collection):54:54 -> containsAll
+    13:26:boolean kotlin.collections.AbstractCollection.containsAll(java.util.Collection):55:55 -> containsAll
+    27:34:boolean kotlin.collections.AbstractCollection.containsAll(java.util.Collection):22:22 -> containsAll
+    4:9:boolean equals(java.lang.Object):66:66 -> equals
+    10:11:boolean equals(java.lang.Object):68:68 -> equals
+    12:16:boolean kotlin.collections.AbstractList$Companion.orderedEquals$kotlin_stdlib(java.util.Collection,java.util.Collection):0:0 -> equals
+    12:16:boolean equals(java.lang.Object):68 -> equals
+    17:28:boolean kotlin.collections.AbstractList$Companion.orderedEquals$kotlin_stdlib(java.util.Collection,java.util.Collection):163:163 -> equals
+    17:28:boolean equals(java.lang.Object):68 -> equals
+    29:32:boolean kotlin.collections.AbstractList$Companion.orderedEquals$kotlin_stdlib(java.util.Collection,java.util.Collection):165:165 -> equals
+    29:32:boolean equals(java.lang.Object):68 -> equals
+    33:46:boolean kotlin.collections.AbstractList$Companion.orderedEquals$kotlin_stdlib(java.util.Collection,java.util.Collection):166:166 -> equals
+    33:46:boolean equals(java.lang.Object):68 -> equals
+    47:50:boolean kotlin.collections.AbstractList$Companion.orderedEquals$kotlin_stdlib(java.util.Collection,java.util.Collection):167:167 -> equals
+    47:50:boolean equals(java.lang.Object):68 -> equals
+    51:58:boolean kotlin.collections.AbstractList$Companion.orderedEquals$kotlin_stdlib(java.util.Collection,java.util.Collection):168:168 -> equals
+    51:58:boolean equals(java.lang.Object):68 -> equals
+    0:18:int kotlin.collections.AbstractList$Companion.orderedHashCode$kotlin_stdlib(java.util.Collection):156:156 -> hashCode
+    0:18:int hashCode():74 -> hashCode
+    19:27:int kotlin.collections.AbstractList$Companion.orderedHashCode$kotlin_stdlib(java.util.Collection):157:157 -> hashCode
+    19:27:int hashCode():74 -> hashCode
+    0:14:int indexOf(java.lang.Object):177:177 -> indexOf
+    15:26:int indexOf(java.lang.Object):27:27 -> indexOf
+    0:9:int kotlin.collections.AbstractCollection.size():14:14 -> isEmpty
+    0:9:boolean kotlin.collections.AbstractCollection.isEmpty():24 -> isEmpty
+    0:6:java.util.Iterator iterator():25:25 -> iterator
+    0:7:int lastIndexOf(java.lang.Object):183:183 -> lastIndexOf
+    8:13:int lastIndexOf(java.lang.Object):184:184 -> lastIndexOf
+    14:17:int lastIndexOf(java.lang.Object):185:185 -> lastIndexOf
+    18:23:int lastIndexOf(java.lang.Object):29:29 -> lastIndexOf
+    24:30:int lastIndexOf(java.lang.Object):186:186 -> lastIndexOf
+    1:1:java.util.ListIterator listIterator():31:31 -> listIterator
+    2:2:java.util.ListIterator listIterator(int):33:33 -> listIterator
+    1:1:java.lang.Object remove(int):0:0 -> remove
+    2:2:boolean kotlin.collections.AbstractCollection.remove(java.lang.Object):0:0 -> remove
+    0:7:boolean kotlin.collections.AbstractCollection.removeAll(java.util.Collection):0:0 -> removeAll
+    0:7:boolean kotlin.collections.AbstractCollection.retainAll(java.util.Collection):0:0 -> retainAll
+    0:7:java.lang.Object set(int,java.lang.Object):0:0 -> set
+    0:4:int kotlin.collections.AbstractCollection.size():14:14 -> size
+    0:5:java.util.List subList(int,int):35:35 -> subList
+    1:1:java.lang.Object[] kotlin.collections.AbstractCollection.toArray():34:34 -> toArray
+    2:2:java.lang.Object[] kotlin.collections.AbstractCollection.toArray(java.lang.Object[]):48:48 -> toArray
+    0:4:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3510:3510 -> toString
+    0:4:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString$default(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1,int,java.lang.Object):3509 -> toString
+    0:4:java.lang.String kotlin.collections.AbstractCollection.toString():26 -> toString
+    5:9:java.lang.Appendable kotlin.collections.CollectionsKt___CollectionsKt.joinTo(java.lang.Iterable,java.lang.Appendable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3488:3488 -> toString
+    5:9:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3510 -> toString
+    5:9:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString$default(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1,int,java.lang.Object):3509 -> toString
+    5:9:java.lang.String kotlin.collections.AbstractCollection.toString():26 -> toString
+    10:28:java.lang.Appendable kotlin.collections.CollectionsKt___CollectionsKt.joinTo(java.lang.Iterable,java.lang.Appendable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3490:3490 -> toString
+    10:28:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3510 -> toString
+    10:28:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString$default(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1,int,java.lang.Object):3509 -> toString
+    10:28:java.lang.String kotlin.collections.AbstractCollection.toString():26 -> toString
+    29:35:java.lang.Appendable kotlin.collections.CollectionsKt___CollectionsKt.joinTo(java.lang.Iterable,java.lang.Appendable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3491:3491 -> toString
+    29:35:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3510 -> toString
+    29:35:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString$default(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1,int,java.lang.Object):3509 -> toString
+    29:35:java.lang.String kotlin.collections.AbstractCollection.toString():26 -> toString
+    36:42:java.lang.CharSequence kotlin.collections.AbstractCollection$toString$1.invoke(java.lang.Object):27:27 -> toString
+    36:42:java.lang.Object kotlin.collections.AbstractCollection$toString$1.invoke(java.lang.Object):26 -> toString
+    36:42:void kotlin.text.StringsKt__AppendableKt.appendElement(java.lang.Appendable,java.lang.Object,kotlin.jvm.functions.Function1):84 -> toString
+    36:42:java.lang.Appendable kotlin.collections.CollectionsKt___CollectionsKt.joinTo(java.lang.Iterable,java.lang.Appendable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3493 -> toString
+    36:42:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3510 -> toString
+    36:42:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString$default(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1,int,java.lang.Object):3509 -> toString
+    36:42:java.lang.String kotlin.collections.AbstractCollection.toString():26 -> toString
+    43:46:void kotlin.text.StringsKt__AppendableKt.appendElement(java.lang.Appendable,java.lang.Object,kotlin.jvm.functions.Function1):84:84 -> toString
+    43:46:java.lang.Appendable kotlin.collections.CollectionsKt___CollectionsKt.joinTo(java.lang.Iterable,java.lang.Appendable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3493 -> toString
+    43:46:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3510 -> toString
+    43:46:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString$default(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1,int,java.lang.Object):3509 -> toString
+    43:46:java.lang.String kotlin.collections.AbstractCollection.toString():26 -> toString
+    47:51:java.lang.Appendable kotlin.collections.CollectionsKt___CollectionsKt.joinTo(java.lang.Iterable,java.lang.Appendable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3497:3497 -> toString
+    47:51:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3510 -> toString
+    47:51:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString$default(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1,int,java.lang.Object):3509 -> toString
+    47:51:java.lang.String kotlin.collections.AbstractCollection.toString():26 -> toString
+    52:61:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1):3510:3510 -> toString
+    52:61:java.lang.String kotlin.collections.CollectionsKt___CollectionsKt.joinToString$default(java.lang.Iterable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1,int,java.lang.Object):3509 -> toString
+    52:61:java.lang.String kotlin.collections.AbstractCollection.toString():26 -> toString
+kotlin.collections.AbstractList$Companion -> R8$$REMOVED$$CLASS$$5:
+# {"id":"sourceFile","fileName":"AbstractList.kt"}
+kotlin.collections.AbstractList$IteratorImpl -> c.a:
+# {"id":"sourceFile","fileName":"AbstractList.kt"}
+    int c.AbstractList$IteratorImpl.$r8$classId -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    int index -> b
+    kotlin.collections.AbstractList this$0 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/lang/Object;"}
+    0:7:void c.AbstractList$IteratorImpl.<init>(int,java.lang.Object):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    5:17:boolean kotlin.jvm.internal.ArrayIterator.hasNext():10:10 -> hasNext
+    18:19:boolean hasNext():80:80 -> hasNext
+    20:33:int kotlin.collections.AbstractCollection.size():14:14 -> hasNext
+    20:33:boolean hasNext():80 -> hasNext
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    5:34:java.lang.Object kotlin.jvm.internal.ArrayIterator.next():11:11 -> next
+    35:40:java.lang.Object next():83:83 -> next
+    41:55:java.lang.Object next():84:84 -> next
+    56:61:java.lang.Object next():83:83 -> next
+    5:12:void kotlin.jvm.internal.ArrayIterator.remove():0:0 -> remove
+    13:21:void remove():0:0 -> remove
+kotlin.collections.AbstractList$ListIteratorImpl -> c.b:
+# {"id":"sourceFile","fileName":"AbstractList.kt"}
+    kotlin.collections.AbstractList this$0 -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/d;"}
+    0:5:void <init>(kotlin.collections.AbstractList,int):91:91 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/d;I)V"}
+    6:13:int kotlin.collections.AbstractCollection.size():14:14 -> <init>
+    6:13:void <init>(kotlin.collections.AbstractList,int):94 -> <init>
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    14:16:void kotlin.collections.AbstractList$IteratorImpl.setIndex(int):78:78 -> <init>
+    14:16:void <init>(kotlin.collections.AbstractList,int):95 -> <init>
+    17:44:void kotlin.collections.AbstractList$Companion.checkPositionIndex$kotlin_stdlib(int,int):119:119 -> <init>
+    17:44:void <init>(kotlin.collections.AbstractList,int):94 -> <init>
+    0:7:void add(java.lang.Object):0:0 -> add
+    0:7:int kotlin.collections.AbstractList$IteratorImpl.getIndex():78:78 -> hasPrevious
+    0:7:boolean hasPrevious():98 -> hasPrevious
+    0:2:int kotlin.collections.AbstractList$IteratorImpl.getIndex():78:78 -> nextIndex
+    0:2:int nextIndex():100 -> nextIndex
+    0:5:java.lang.Object previous():103:103 -> previous
+    6:9:int kotlin.collections.AbstractList$IteratorImpl.getIndex():78:78 -> previous
+    6:9:java.lang.Object previous():104 -> previous
+    10:11:void kotlin.collections.AbstractList$IteratorImpl.setIndex(int):78:78 -> previous
+    10:11:java.lang.Object previous():104 -> previous
+    12:18:java.lang.Object previous():104:104 -> previous
+    19:24:java.lang.Object previous():103:103 -> previous
+    0:4:int kotlin.collections.AbstractList$IteratorImpl.getIndex():78:78 -> previousIndex
+    0:4:int previousIndex():107 -> previousIndex
+    0:7:void set(java.lang.Object):0:0 -> set
+kotlin.collections.AbstractList$SubList -> c.c:
+# {"id":"sourceFile","fileName":"AbstractList.kt"}
+    kotlin.collections.AbstractList list -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/d;"}
+    int fromIndex -> b
+    int _size -> c
+    5:11:void <init>(kotlin.collections.AbstractList,int,int):37:37 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/d;II)V"}
+    12:15:int kotlin.collections.AbstractCollection.size():14:14 -> <init>
+    12:15:void <init>(kotlin.collections.AbstractList,int,int):41 -> <init>
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    16:24:void kotlin.collections.AbstractList$Companion.checkRangeIndexes$kotlin_stdlib(int,int,int):124:124 -> <init>
+    16:24:void <init>(kotlin.collections.AbstractList,int,int):41 -> <init>
+    25:27:void <init>(kotlin.collections.AbstractList,int,int):42:42 -> <init>
+    28:53:void kotlin.collections.AbstractList$Companion.checkRangeIndexes$kotlin_stdlib(int,int,int):128:128 -> <init>
+    28:53:void <init>(kotlin.collections.AbstractList,int,int):41 -> <init>
+    54:87:void kotlin.collections.AbstractList$Companion.checkRangeIndexes$kotlin_stdlib(int,int,int):125:125 -> <init>
+    54:87:void <init>(kotlin.collections.AbstractList,int,int):41 -> <init>
+    0:2:int getSize():51:51 -> a
+    0:5:void kotlin.collections.AbstractList$Companion.checkElementIndex$kotlin_stdlib(int,int):112:112 -> get
+    0:5:java.lang.Object get(int):46 -> get
+    6:15:java.lang.Object get(int):48:48 -> get
+    16:43:void kotlin.collections.AbstractList$Companion.checkElementIndex$kotlin_stdlib(int,int):113:113 -> get
+    16:43:java.lang.Object get(int):46 -> get
+kotlin.collections.ArrayAsCollection -> c.e:
+# {"id":"sourceFile","fileName":"Collections.kt"}
+    java.lang.Object[] values -> a
+    0:5:void <init>(java.lang.Object[],boolean):58:58 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"([Ljava/lang/Object;)V"}
+    0:7:boolean add(java.lang.Object):0:0 -> add
+    0:7:boolean addAll(java.util.Collection):0:0 -> addAll
+    0:7:void clear():0:0 -> clear
+    0:9:boolean contains(java.lang.Object):61:61 -> contains
+    10:13:int kotlin.collections.ArraysKt___ArraysKt.indexOf(java.lang.Object[],java.lang.Object):1563:1563 -> contains
+    10:13:boolean kotlin.collections.ArraysKt___ArraysKt.contains(java.lang.Object[],java.lang.Object):520 -> contains
+    10:13:boolean contains(java.lang.Object):61 -> contains
+    14:21:int kotlin.collections.ArraysKt___ArraysKt.indexOf(java.lang.Object[],java.lang.Object):1564:1564 -> contains
+    14:21:boolean kotlin.collections.ArraysKt___ArraysKt.contains(java.lang.Object[],java.lang.Object):520 -> contains
+    14:21:boolean contains(java.lang.Object):61 -> contains
+    22:25:int kotlin.collections.ArraysKt___ArraysKt.indexOf(java.lang.Object[],java.lang.Object):1569:1569 -> contains
+    22:25:boolean kotlin.collections.ArraysKt___ArraysKt.contains(java.lang.Object[],java.lang.Object):520 -> contains
+    22:25:boolean contains(java.lang.Object):61 -> contains
+    26:27:int kotlin.collections.ArraysKt___ArraysKt.indexOf(java.lang.Object[],java.lang.Object):1570:1570 -> contains
+    26:27:boolean kotlin.collections.ArraysKt___ArraysKt.contains(java.lang.Object[],java.lang.Object):520 -> contains
+    26:27:boolean contains(java.lang.Object):61 -> contains
+    28:43:boolean kotlin.jvm.internal.Intrinsics.areEqual(java.lang.Object,java.lang.Object):169:169 -> contains
+    28:43:int kotlin.collections.ArraysKt___ArraysKt.indexOf(java.lang.Object[],java.lang.Object):1570 -> contains
+    28:43:boolean kotlin.collections.ArraysKt___ArraysKt.contains(java.lang.Object[],java.lang.Object):520 -> contains
+    28:43:boolean contains(java.lang.Object):61 -> contains
+    5:12:boolean containsAll(java.util.Collection):527:527 -> containsAll
+    13:26:boolean containsAll(java.util.Collection):528:528 -> containsAll
+    27:34:boolean containsAll(java.util.Collection):62:62 -> containsAll
+    0:8:boolean isEmpty():60:60 -> isEmpty
+    0:1:java.util.Iterator kotlin.jvm.internal.ArrayIteratorKt.iterator(java.lang.Object[]):0:0 -> iterator
+    0:1:java.util.Iterator iterator():63 -> iterator
+    2:8:java.util.Iterator kotlin.jvm.internal.ArrayIteratorKt.iterator(java.lang.Object[]):14:14 -> iterator
+    2:8:java.util.Iterator iterator():63 -> iterator
+    0:7:boolean remove(java.lang.Object):0:0 -> remove
+    0:7:boolean removeAll(java.util.Collection):0:0 -> removeAll
+    0:7:boolean retainAll(java.util.Collection):0:0 -> retainAll
+    0:3:int getSize():59:59 -> size
+    0:3:int size():58 -> size
+    1:1:java.lang.Object[] kotlin.collections.CollectionsKt__CollectionsJVMKt.copyToArrayOfAny(java.lang.Object[],boolean):0:0 -> toArray
+    1:1:java.lang.Object[] toArray():65 -> toArray
+    2:2:java.lang.Object[] kotlin.collections.CollectionsKt__CollectionsJVMKt.copyToArrayOfAny(java.lang.Object[],boolean):99:99 -> toArray
+    2:2:java.lang.Object[] toArray():65 -> toArray
+    3:3:boolean kotlin.jvm.internal.Intrinsics.areEqual(java.lang.Object,java.lang.Object):169:169 -> toArray
+    3:3:java.lang.Object[] kotlin.collections.CollectionsKt__CollectionsJVMKt.copyToArrayOfAny(java.lang.Object[],boolean):99 -> toArray
+    3:3:java.lang.Object[] toArray():65 -> toArray
+    4:4:java.lang.Object[] kotlin.collections.CollectionsKt__CollectionsJVMKt.copyToArrayOfAny(java.lang.Object[],boolean):103:103 -> toArray
+    4:4:java.lang.Object[] toArray():65 -> toArray
+    5:5:java.lang.Object[] toArray(java.lang.Object[]):0:0 -> toArray
+kotlin.collections.ArraysKt__ArraysJVMKt -> R8$$REMOVED$$CLASS$$6:
+# {"id":"sourceFile","fileName":"ArraysJVM.kt"}
+kotlin.collections.ArraysKt___ArraysJvmKt -> R8$$REMOVED$$CLASS$$7:
+# {"id":"sourceFile","fileName":"_ArraysJvm.kt"}
+kotlin.collections.ArraysKt___ArraysKt -> R8$$REMOVED$$CLASS$$8:
+# {"id":"sourceFile","fileName":"_Arrays.kt"}
+kotlin.collections.ArraysUtilJVM -> R8$$REMOVED$$CLASS$$9:
+# {"id":"sourceFile","fileName":"ArraysUtilJVM.java"}
+kotlin.collections.CollectionsKt__CollectionsJVMKt -> R8$$REMOVED$$CLASS$$10:
+# {"id":"sourceFile","fileName":"CollectionsJVM.kt"}
+kotlin.collections.CollectionsKt__CollectionsKt -> R8$$REMOVED$$CLASS$$11:
+# {"id":"sourceFile","fileName":"Collections.kt"}
+kotlin.collections.CollectionsKt__IterablesKt -> R8$$REMOVED$$CLASS$$12:
+# {"id":"sourceFile","fileName":"Iterables.kt"}
+kotlin.collections.CollectionsKt___CollectionsKt -> R8$$REMOVED$$CLASS$$13:
+# {"id":"sourceFile","fileName":"_Collections.kt"}
+kotlin.collections.EmptyIterator -> c.f:
+# {"id":"sourceFile","fileName":"Collections.kt"}
+    kotlin.collections.EmptyIterator INSTANCE -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/f;"}
+    2:4:void <init>():16:16 -> <clinit>
+    2:4:void <clinit>():0 -> <clinit>
+    5:7:void <clinit>():0:0 -> <clinit>
+    0:7:void add(java.lang.Object):0:0 -> add
+    0:1:boolean hasNext():17:17 -> hasNext
+    0:1:boolean hasPrevious():18:18 -> hasPrevious
+    0:5:java.lang.Void next():21:21 -> next
+    0:5:java.lang.Object next():16 -> next
+    0:1:int nextIndex():19:19 -> nextIndex
+    0:5:java.lang.Void previous():22:22 -> previous
+    0:5:java.lang.Object previous():16 -> previous
+    0:1:int previousIndex():20:20 -> previousIndex
+    0:7:void remove():0:0 -> remove
+    0:7:void set(java.lang.Object):0:0 -> set
+kotlin.collections.EmptyList -> c.g:
+# {"id":"sourceFile","fileName":"Collections.kt"}
+    kotlin.collections.EmptyList INSTANCE -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/g;"}
+    2:4:void <init>():25:25 -> <clinit>
+    2:4:void <clinit>():0 -> <clinit>
+    5:7:void <clinit>():0:0 -> <clinit>
+    1:1:void add(int,java.lang.Object):0:0 -> add
+    2:2:boolean add(java.lang.Object):0:0 -> add
+    1:1:boolean addAll(int,java.util.Collection):0:0 -> addAll
+    2:2:boolean addAll(java.util.Collection):0:0 -> addAll
+    0:7:void clear():0:0 -> clear
+    0:7:boolean contains(java.lang.Object):25:25 -> contains
+    8:13:boolean contains(java.lang.Void):0:0 -> contains
+    8:13:boolean contains(java.lang.Object):25 -> contains
+    5:9:boolean containsAll(java.util.Collection):35:35 -> containsAll
+    0:15:boolean equals(java.lang.Object):28:28 -> equals
+    0:24:java.lang.Void get(int):37:37 -> get
+    0:24:java.lang.Object get(int):25 -> get
+    0:1:int hashCode():29:29 -> hashCode
+    0:7:int indexOf(java.lang.Object):25:25 -> indexOf
+    8:13:int indexOf(java.lang.Void):0:0 -> indexOf
+    8:13:int indexOf(java.lang.Object):25 -> indexOf
+    0:1:boolean isEmpty():33:33 -> isEmpty
+    0:2:java.util.Iterator iterator():41:41 -> iterator
+    0:7:int lastIndexOf(java.lang.Object):25:25 -> lastIndexOf
+    8:13:int lastIndexOf(java.lang.Void):0:0 -> lastIndexOf
+    8:13:int lastIndexOf(java.lang.Object):25 -> lastIndexOf
+    1:1:java.util.ListIterator listIterator():42:42 -> listIterator
+    2:2:java.util.ListIterator listIterator(int):45:45 -> listIterator
+    3:3:java.util.ListIterator listIterator(int):44:44 -> listIterator
+    1:1:java.lang.Object remove(int):0:0 -> remove
+    2:2:boolean remove(java.lang.Object):0:0 -> remove
+    0:7:boolean removeAll(java.util.Collection):0:0 -> removeAll
+    0:7:boolean retainAll(java.util.Collection):0:0 -> retainAll
+    0:7:java.lang.Object set(int,java.lang.Object):0:0 -> set
+    0:1:int size():25:25 -> size
+    5:32:java.util.List subList(int,int):50:50 -> subList
+    1:1:java.lang.Object[] toArray():0:0 -> toArray
+    2:2:java.lang.Object[] toArray(java.lang.Object[]):0:0 -> toArray
+    0:2:java.lang.String toString():30:30 -> toString
+kotlin.collections.EmptyMap -> c.h:
+# {"id":"sourceFile","fileName":"Maps.kt"}
+    kotlin.collections.EmptyMap INSTANCE -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/h;"}
+    2:4:void <init>():14:14 -> <clinit>
+    2:4:void <clinit>():0 -> <clinit>
+    5:7:void <clinit>():0:0 -> <clinit>
+    0:7:void clear():0:0 -> clear
+    0:1:boolean containsKey(java.lang.Object):24:24 -> containsKey
+    0:7:boolean containsValue(java.lang.Object):14:14 -> containsValue
+    8:13:boolean containsValue(java.lang.Void):0:0 -> containsValue
+    8:13:boolean containsValue(java.lang.Object):14 -> containsValue
+    0:2:java.util.Set entrySet():14:14 -> entrySet
+    0:15:boolean equals(java.lang.Object):17:17 -> equals
+    0:1:java.lang.Object get(java.lang.Object):14:14 -> get
+    0:1:int hashCode():18:18 -> hashCode
+    0:1:boolean isEmpty():22:22 -> isEmpty
+    0:2:java.util.Set keySet():14:14 -> keySet
+    0:7:java.lang.Object put(java.lang.Object,java.lang.Object):0:0 -> put
+    0:7:void putAll(java.util.Map):0:0 -> putAll
+    0:7:java.lang.Void remove(java.lang.Object):0:0 -> remove
+    0:7:java.lang.Object remove(java.lang.Object):14 -> remove
+    0:1:int size():14:14 -> size
+    0:2:java.lang.String toString():19:19 -> toString
+    0:2:java.util.Collection values():14:14 -> values
+kotlin.collections.EmptySet -> c.i:
+# {"id":"sourceFile","fileName":"Sets.kt"}
+    kotlin.collections.EmptySet INSTANCE -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/i;"}
+    2:4:void <init>():14:14 -> <clinit>
+    2:4:void <clinit>():0 -> <clinit>
+    5:7:void <clinit>():0:0 -> <clinit>
+    0:7:boolean add(java.lang.Object):0:0 -> add
+    0:7:boolean addAll(java.util.Collection):0:0 -> addAll
+    0:7:void clear():0:0 -> clear
+    0:7:boolean contains(java.lang.Object):14:14 -> contains
+    8:13:boolean contains(java.lang.Void):0:0 -> contains
+    8:13:boolean contains(java.lang.Object):14 -> contains
+    5:9:boolean containsAll(java.util.Collection):24:24 -> containsAll
+    0:15:boolean equals(java.lang.Object):17:17 -> equals
+    0:1:int hashCode():18:18 -> hashCode
+    0:1:boolean isEmpty():22:22 -> isEmpty
+    0:2:java.util.Iterator iterator():26:26 -> iterator
+    0:7:boolean remove(java.lang.Object):0:0 -> remove
+    0:7:boolean removeAll(java.util.Collection):0:0 -> removeAll
+    0:7:boolean retainAll(java.util.Collection):0:0 -> retainAll
+    0:1:int size():14:14 -> size
+    1:1:java.lang.Object[] toArray():0:0 -> toArray
+    2:2:java.lang.Object[] toArray(java.lang.Object[]):0:0 -> toArray
+    0:2:java.lang.String toString():19:19 -> toString
+kotlin.collections.IntIterator -> R8$$REMOVED$$CLASS$$14:
+# {"id":"sourceFile","fileName":"PrimitiveIterators.kt"}
+kotlin.collections.MapsKt__MapsKt -> R8$$REMOVED$$CLASS$$15:
+# {"id":"sourceFile","fileName":"Maps.kt"}
+kotlin.enums.EnumEntries -> d.a:
+# {"id":"sourceFile","fileName":"EnumEntries.kt"}
+kotlin.enums.EnumEntriesKt -> R8$$REMOVED$$CLASS$$16:
+# {"id":"sourceFile","fileName":"EnumEntries.kt"}
+kotlin.enums.EnumEntriesList -> d.b:
+# {"id":"sourceFile","fileName":"EnumEntries.kt"}
+    java.lang.Enum[] entries -> a
+    5:10:void <init>(java.lang.Enum[]):46:46 -> <init>
+    0:3:int getSize():53:53 -> a
+    0:7:boolean contains(java.lang.Object):45:45 -> contains
+    8:12:boolean contains(java.lang.Enum):0:0 -> contains
+    8:12:boolean contains(java.lang.Object):45 -> contains
+    13:25:boolean contains(java.lang.Enum):67:67 -> contains
+    13:25:boolean contains(java.lang.Object):45 -> contains
+    26:36:java.lang.Object kotlin.collections.ArraysKt___ArraysKt.getOrNull(java.lang.Object[],int):1483:1483 -> contains
+    26:36:boolean contains(java.lang.Enum):67 -> contains
+    26:36:boolean contains(java.lang.Object):45 -> contains
+    0:6:java.lang.Enum get(int):56:56 -> get
+    0:6:java.lang.Object get(int):45 -> get
+    7:9:java.lang.Enum get(int):57:57 -> get
+    7:9:java.lang.Object get(int):45 -> get
+    10:37:void kotlin.collections.AbstractList$Companion.checkElementIndex$kotlin_stdlib(int,int):113:113 -> get
+    10:37:java.lang.Enum get(int):56 -> get
+    10:37:java.lang.Object get(int):45 -> get
+    0:7:int indexOf(java.lang.Object):45:45 -> indexOf
+    8:12:int indexOf(java.lang.Enum):0:0 -> indexOf
+    8:12:int indexOf(java.lang.Object):45 -> indexOf
+    13:16:int indexOf(java.lang.Enum):75:75 -> indexOf
+    13:16:int indexOf(java.lang.Object):45 -> indexOf
+    17:25:int indexOf(java.lang.Enum):76:76 -> indexOf
+    17:25:int indexOf(java.lang.Object):45 -> indexOf
+    26:36:java.lang.Object kotlin.collections.ArraysKt___ArraysKt.getOrNull(java.lang.Object[],int):1483:1483 -> indexOf
+    26:36:int indexOf(java.lang.Enum):76 -> indexOf
+    26:36:int indexOf(java.lang.Object):45 -> indexOf
+    0:7:int lastIndexOf(java.lang.Object):45:45 -> lastIndexOf
+    8:12:int lastIndexOf(java.lang.Enum):0:0 -> lastIndexOf
+    8:12:int lastIndexOf(java.lang.Object):45 -> lastIndexOf
+    13:17:int lastIndexOf(java.lang.Enum):80:80 -> lastIndexOf
+    13:17:int lastIndexOf(java.lang.Object):45 -> lastIndexOf
+kotlin.internal.PlatformImplementations -> R8$$REMOVED$$CLASS$$17:
+# {"id":"sourceFile","fileName":"PlatformImplementations.kt"}
+kotlin.internal.PlatformImplementations$ReflectThrowable -> e.a:
+# {"id":"sourceFile","fileName":"PlatformImplementations.kt"}
+    java.lang.reflect.Method addSuppressed -> a
+    0:5:void <clinit>():23:23 -> <clinit>
+    6:16:void <clinit>():24:24 -> <clinit>
+    17:37:void <clinit>():25:25 -> <clinit>
+    38:43:java.lang.Object kotlin.collections.ArraysKt___ArraysKt.singleOrNull(java.lang.Object[]):3107:3107 -> <clinit>
+    38:43:void <clinit>():25 -> <clinit>
+    44:54:void <clinit>():25:25 -> <clinit>
+    55:56:void <clinit>():24:24 -> <clinit>
+    57:78:void <clinit>():27:27 -> <clinit>
+kotlin.internal.jdk7.JDK7PlatformImplementations -> R8$$REMOVED$$CLASS$$18:
+# {"id":"sourceFile","fileName":"JDK7PlatformImplementations.kt"}
+kotlin.internal.jdk7.JDK7PlatformImplementations$ReflectSdkVersion -> f.a:
+# {"id":"sourceFile","fileName":"JDK7PlatformImplementations.kt"}
+    java.lang.Integer sdkVersion -> a
+    1:26:void <clinit>():16:16 -> <clinit>
+    27:36:void <clinit>():19:19 -> <clinit>
+kotlin.jvm.KotlinReflectionNotSupportedError -> h.a:
+# {"id":"sourceFile","fileName":"KotlinReflectionNotSupportedError.kt"}
+kotlin.jvm.functions.Function0 -> i.a:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+    java.lang.Object invoke() -> invoke
+kotlin.jvm.functions.Function1 -> i.l:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+    java.lang.Object invoke(java.lang.Object) -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;)Ljava/lang/String;"}
+kotlin.jvm.functions.Function10 -> i.b:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function11 -> i.c:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function12 -> i.d:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function13 -> i.e:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function14 -> i.f:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function15 -> i.g:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function16 -> i.h:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function17 -> i.i:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function18 -> i.j:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function19 -> i.k:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function2 -> i.p:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function20 -> i.m:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function21 -> i.n:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function22 -> i.o:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function3 -> i.q:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function4 -> i.r:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function5 -> i.s:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function6 -> i.t:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function7 -> i.u:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function8 -> i.v:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.functions.Function9 -> i.w:
+# {"id":"sourceFile","fileName":"Functions.kt"}
+kotlin.jvm.internal.ArrayIteratorKt -> R8$$REMOVED$$CLASS$$19:
+# {"id":"sourceFile","fileName":"ArrayIterator.kt"}
+kotlin.jvm.internal.CallableReference -> kotlin.jvm.internal.b:
+# {"id":"sourceFile","fileName":"CallableReference.java"}
+    kotlin.reflect.KCallable reflected -> reflected
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ll/b;"}
+    0:4:void <clinit>():48:48 -> <clinit>
+    0:2:void <init>(java.lang.Object,java.lang.Class,java.lang.String,java.lang.String,boolean):69:69 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;Z)V"}
+    3:4:void <init>(java.lang.Object,java.lang.Class,java.lang.String,java.lang.String,boolean):70:70 -> <init>
+    5:8:void <init>(java.lang.Object,java.lang.Class,java.lang.String,java.lang.String,boolean):71:71 -> <init>
+    9:12:void <init>(java.lang.Object,java.lang.Class,java.lang.String,java.lang.String,boolean):72:72 -> <init>
+    13:16:void <init>(java.lang.Object,java.lang.Class,java.lang.String,java.lang.String,boolean):73:73 -> <init>
+    17:19:void <init>(java.lang.Object,java.lang.Class,java.lang.String,java.lang.String,boolean):74:74 -> <init>
+    0:8:java.lang.Object call(java.lang.Object[]):161:161 -> call
+    0:8:java.lang.Object callBy(java.util.Map):166:166 -> callBy
+    0:3:kotlin.reflect.KCallable compute():86:86 -> compute
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ll/b;"}
+    4:7:kotlin.reflect.KCallable compute():88:88 -> compute
+    8:10:kotlin.reflect.KCallable compute():89:89 -> compute
+    kotlin.reflect.KCallable computeReflected() -> computeReflected
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ll/b;"}
+    0:8:java.util.List getAnnotations():150:150 -> getAnnotations
+    0:2:java.lang.Object getBoundReceiver():81:81 -> getBoundReceiver
+    0:2:java.lang.String getName():120:120 -> getName
+    0:9:kotlin.reflect.KDeclarationContainer getOwner():111:111 -> getOwner
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ll/d;"}
+    10:14:kotlin.reflect.KDeclarationContainer kotlin.jvm.internal.Reflection.getOrCreateKotlinPackage(java.lang.Class):51:51 -> getOwner
+    10:14:kotlin.reflect.KDeclarationContainer getOwner():112 -> getOwner
+    15:20:kotlin.reflect.KDeclarationContainer kotlin.jvm.internal.ReflectionFactory.getOrCreateKotlinPackage(java.lang.Class,java.lang.String):26:26 -> getOwner
+    15:20:kotlin.reflect.KDeclarationContainer kotlin.jvm.internal.Reflection.getOrCreateKotlinPackage(java.lang.Class):51 -> getOwner
+    15:20:kotlin.reflect.KDeclarationContainer getOwner():112 -> getOwner
+    21:25:kotlin.reflect.KClass kotlin.jvm.internal.Reflection.getOrCreateKotlinClass(java.lang.Class):60:60 -> getOwner
+    21:25:kotlin.reflect.KDeclarationContainer getOwner():112 -> getOwner
+    26:31:kotlin.reflect.KClass kotlin.jvm.internal.ReflectionFactory.getOrCreateKotlinClass(java.lang.Class):30:30 -> getOwner
+    26:31:kotlin.reflect.KClass kotlin.jvm.internal.Reflection.getOrCreateKotlinClass(java.lang.Class):60 -> getOwner
+    26:31:kotlin.reflect.KDeclarationContainer getOwner():112 -> getOwner
+    0:8:java.util.List getParameters():140:140 -> getParameters
+    kotlin.reflect.KCallable getReflected() -> getReflected
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ll/b;"}
+    0:8:kotlin.reflect.KType getReturnType():145:145 -> getReturnType
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ll/f;"}
+    0:2:java.lang.String getSignature():132:132 -> getSignature
+    0:8:java.util.List getTypeParameters():156:156 -> getTypeParameters
+    0:8:kotlin.reflect.KVisibility getVisibility():172:172 -> getVisibility
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ll/g;"}
+    0:8:boolean isAbstract():190:190 -> isAbstract
+    0:8:boolean isFinal():178:178 -> isFinal
+    0:8:boolean isOpen():184:184 -> isOpen
+kotlin.jvm.internal.CallableReference$NoReceiver -> kotlin.jvm.internal.a:
+# {"id":"sourceFile","fileName":"CallableReference.java"}
+    kotlin.jvm.internal.CallableReference$NoReceiver INSTANCE -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lkotlin/jvm/internal/a;"}
+    0:1:void <clinit>():52:52 -> <clinit>
+    2:4:void <init>():51:51 -> <clinit>
+    2:4:void <clinit>():52 -> <clinit>
+    5:7:void <clinit>():52:52 -> <clinit>
+kotlin.jvm.internal.ClassBasedDeclarationContainer -> kotlin.jvm.internal.c:
+# {"id":"sourceFile","fileName":"ClassBasedDeclarationContainer.kt"}
+    java.lang.Class getJClass() -> a
+kotlin.jvm.internal.ClassReference -> kotlin.jvm.internal.d:
+# {"id":"sourceFile","fileName":"ClassReference.kt"}
+    java.lang.Class jClass -> a
+    java.util.Map FUNCTION_CLASSES -> b
+    0:49:void <clinit>():106:106 -> <clinit>
+    50:53:java.util.List kotlin.collections.ArraysUtilJVM.asList(java.lang.Object[]):13:13 -> <clinit>
+    50:53:java.util.List kotlin.collections.ArraysKt___ArraysJvmKt.asList(java.lang.Object[]):133 -> <clinit>
+    50:53:java.util.List kotlin.collections.CollectionsKt__CollectionsKt.listOf(java.lang.Object[]):78 -> <clinit>
+    50:53:void <clinit>():101 -> <clinit>
+    54:58:void <clinit>():133:133 -> <clinit>
+    54:58:java.util.List kotlin.collections.ArraysKt___ArraysJvmKt.asList(java.lang.Object[]):133 -> <clinit>
+    54:58:java.util.List kotlin.collections.CollectionsKt__CollectionsKt.listOf(java.lang.Object[]):78 -> <clinit>
+    54:58:void <clinit>():101 -> <clinit>
+    59:60:java.util.List kotlin.collections.CollectionsKt___CollectionsKt.mapIndexed(java.lang.Iterable,kotlin.jvm.functions.Function2):1567:1567 -> <clinit>
+    59:60:void <clinit>():107 -> <clinit>
+    61:64:int kotlin.collections.CollectionsKt__IterablesKt.collectionSizeOrDefault(java.lang.Iterable,int):39:39 -> <clinit>
+    61:64:void <clinit>():206 -> <clinit>
+    65:67:java.util.List kotlin.collections.CollectionsKt___CollectionsKt.mapIndexed(java.lang.Iterable,kotlin.jvm.functions.Function2):1567:1567 -> <clinit>
+    65:67:void <clinit>():107 -> <clinit>
+    68:87:java.util.Collection kotlin.collections.CollectionsKt___CollectionsKt.mapIndexedTo(java.lang.Iterable,java.util.Collection,kotlin.jvm.functions.Function2):1599:1599 -> <clinit>
+    68:87:void <clinit>():107 -> <clinit>
+    88:89:java.util.Collection kotlin.collections.CollectionsKt___CollectionsKt.mapIndexedTo(java.lang.Iterable,java.util.Collection,kotlin.jvm.functions.Function2):1600:1600 -> <clinit>
+    88:89:void <clinit>():107 -> <clinit>
+    90:93:void <clinit>():107:107 -> <clinit>
+    94:98:kotlin.Pair kotlin.TuplesKt.to(java.lang.Object,java.lang.Object):43:43 -> <clinit>
+    94:98:void <clinit>():107 -> <clinit>
+    99:103:java.util.Collection kotlin.collections.CollectionsKt___CollectionsKt.mapIndexedTo(java.lang.Iterable,java.util.Collection,kotlin.jvm.functions.Function2):1600:1600 -> <clinit>
+    99:103:void <clinit>():107 -> <clinit>
+    104:111:void kotlin.collections.CollectionsKt__CollectionsKt.throwIndexOverflow():480:480 -> <clinit>
+    104:111:void <clinit>():209 -> <clinit>
+    112:113:java.util.Map kotlin.collections.MapsKt__MapsKt.toMap(java.lang.Iterable):570:570 -> <clinit>
+    112:113:void <clinit>():107 -> <clinit>
+    114:122:java.util.Map kotlin.collections.MapsKt__MapsKt.toMap(java.lang.Iterable):571:571 -> <clinit>
+    114:122:void <clinit>():107 -> <clinit>
+    123:135:java.util.Map kotlin.collections.MapsKt__MapsKt.toMap(java.lang.Iterable):574:574 -> <clinit>
+    123:135:void <clinit>():107 -> <clinit>
+    136:151:void kotlin.collections.MapsKt__MapsKt.putAll(java.util.Map,java.lang.Iterable):439:439 -> <clinit>
+    136:151:java.util.Map kotlin.collections.MapsKt__MapsKt.toMap(java.lang.Iterable,java.util.Map):584 -> <clinit>
+    136:151:java.util.Map kotlin.collections.MapsKt__MapsKt.toMap(java.lang.Iterable):574 -> <clinit>
+    136:151:void <clinit>():107 -> <clinit>
+    152:153:java.lang.Object kotlin.Pair.component1():0:0 -> <clinit>
+    152:153:void kotlin.collections.MapsKt__MapsKt.putAll(java.util.Map,java.lang.Iterable):439 -> <clinit>
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    152:153:java.util.Map kotlin.collections.MapsKt__MapsKt.toMap(java.lang.Iterable,java.util.Map):584 -> <clinit>
+    152:153:java.util.Map kotlin.collections.MapsKt__MapsKt.toMap(java.lang.Iterable):574 -> <clinit>
+    152:153:void <clinit>():107 -> <clinit>
+    154:159:void kotlin.collections.MapsKt__MapsKt.putAll(java.util.Map,java.lang.Iterable):440:440 -> <clinit>
+    154:159:java.util.Map kotlin.collections.MapsKt__MapsKt.toMap(java.lang.Iterable,java.util.Map):584 -> <clinit>
+    154:159:java.util.Map kotlin.collections.MapsKt__MapsKt.toMap(java.lang.Iterable):574 -> <clinit>
+    154:159:void <clinit>():107 -> <clinit>
+    160:165:java.util.Map kotlin.collections.MapsKt__MapsKt.toMap(java.lang.Iterable):573:573 -> <clinit>
+    160:165:void <clinit>():107 -> <clinit>
+    166:170:java.util.Map kotlin.collections.MapsKt__MapsJVMKt.mapOf(kotlin.Pair):0:0 -> <clinit>
+    166:170:java.util.Map kotlin.collections.MapsKt__MapsKt.toMap(java.lang.Iterable):573 -> <clinit>
+    166:170:void <clinit>():107 -> <clinit>
+    171:183:java.util.Map kotlin.collections.MapsKt__MapsJVMKt.mapOf(kotlin.Pair):26:26 -> <clinit>
+    171:183:java.util.Map kotlin.collections.MapsKt__MapsKt.toMap(java.lang.Iterable):573 -> <clinit>
+    171:183:void <clinit>():107 -> <clinit>
+    184:185:void <clinit>():107:107 -> <clinit>
+    186:190:void <clinit>():109:109 -> <clinit>
+    191:197:void <clinit>():110:110 -> <clinit>
+    198:204:void <clinit>():111:111 -> <clinit>
+    205:211:void <clinit>():112:112 -> <clinit>
+    212:218:void <clinit>():113:113 -> <clinit>
+    219:225:void <clinit>():114:114 -> <clinit>
+    226:232:void <clinit>():115:115 -> <clinit>
+    233:239:void <clinit>():116:116 -> <clinit>
+    240:246:void <clinit>():117:117 -> <clinit>
+    247:251:void <clinit>():120:120 -> <clinit>
+    252:256:void <clinit>():121:121 -> <clinit>
+    257:261:void <clinit>():122:122 -> <clinit>
+    262:266:void <clinit>():123:123 -> <clinit>
+    267:271:void <clinit>():124:124 -> <clinit>
+    272:276:void <clinit>():125:125 -> <clinit>
+    277:281:void <clinit>():126:126 -> <clinit>
+    282:286:void <clinit>():127:127 -> <clinit>
+    287:291:void <clinit>():128:128 -> <clinit>
+    292:296:void <clinit>():132:132 -> <clinit>
+    297:303:void <clinit>():133:133 -> <clinit>
+    304:310:void <clinit>():134:134 -> <clinit>
+    311:317:void <clinit>():135:135 -> <clinit>
+    318:324:void <clinit>():136:136 -> <clinit>
+    325:331:void <clinit>():137:137 -> <clinit>
+    332:338:void <clinit>():138:138 -> <clinit>
+    339:345:void <clinit>():139:139 -> <clinit>
+    346:352:void <clinit>():140:140 -> <clinit>
+    353:359:void <clinit>():141:141 -> <clinit>
+    360:366:void <clinit>():142:142 -> <clinit>
+    367:373:void <clinit>():143:143 -> <clinit>
+    374:380:void <clinit>():144:144 -> <clinit>
+    381:387:void <clinit>():145:145 -> <clinit>
+    388:394:void <clinit>():146:146 -> <clinit>
+    395:401:void <clinit>():147:147 -> <clinit>
+    402:408:void <clinit>():148:148 -> <clinit>
+    409:415:void <clinit>():149:149 -> <clinit>
+    416:422:void <clinit>():150:150 -> <clinit>
+    423:429:void <clinit>():151:151 -> <clinit>
+    430:432:void <clinit>():153:153 -> <clinit>
+    433:435:void <clinit>():154:154 -> <clinit>
+    436:444:void <clinit>():155:155 -> <clinit>
+    445:458:java.util.Map kotlin.collections.CollectionsKt___CollectionsKt.associateTo(java.lang.Iterable,java.util.Map,kotlin.jvm.functions.Function1):1261:1261 -> <clinit>
+    445:458:void <clinit>():155 -> <clinit>
+    459:460:java.util.Map kotlin.collections.CollectionsKt___CollectionsKt.associateTo(java.lang.Iterable,java.util.Map,kotlin.jvm.functions.Function1):1262:1262 -> <clinit>
+    459:460:void <clinit>():155 -> <clinit>
+    461:492:void <clinit>():156:156 -> <clinit>
+    493:496:java.util.Map kotlin.collections.CollectionsKt___CollectionsKt.associateTo(java.lang.Iterable,java.util.Map,kotlin.jvm.functions.Function1):1262:1262 -> <clinit>
+    493:496:void <clinit>():155 -> <clinit>
+    497:534:void <clinit>():158:158 -> <clinit>
+    535:556:void <clinit>():159:159 -> <clinit>
+    557:569:java.util.Map kotlin.collections.MapsKt__MapsKt.mapValues(java.util.Map,kotlin.jvm.functions.Function1):462:462 -> <clinit>
+    557:569:void <clinit>():163 -> <clinit>
+    570:573:java.util.Map kotlin.collections.MapsKt__MapsKt.mapValuesTo(java.util.Map,java.util.Map,kotlin.jvm.functions.Function1):412:412 -> <clinit>
+    570:573:void <clinit>():163 -> <clinit>
+    574:587:java.util.Map kotlin.collections.CollectionsKt___CollectionsKt.associateByTo(java.lang.Iterable,java.util.Map,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1):1246:1246 -> <clinit>
+    574:587:void <clinit>():163 -> <clinit>
+    588:589:java.util.Map kotlin.collections.CollectionsKt___CollectionsKt.associateByTo(java.lang.Iterable,java.util.Map,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1):1247:1247 -> <clinit>
+    588:589:void <clinit>():163 -> <clinit>
+    590:593:java.util.Map kotlin.collections.MapsKt__MapsKt.mapValuesTo(java.util.Map,java.util.Map,kotlin.jvm.functions.Function1):412:412 -> <clinit>
+    590:593:void <clinit>():163 -> <clinit>
+    594:603:void <clinit>():163:163 -> <clinit>
+    604:608:java.util.Map kotlin.collections.CollectionsKt___CollectionsKt.associateByTo(java.lang.Iterable,java.util.Map,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1):1247:1247 -> <clinit>
+    604:608:void <clinit>():163 -> <clinit>
+    5:10:java.util.Map access$getFUNCTION_CLASSES$cp():10:10 -> <init>
+    5:10:void <init>(java.lang.Class):10 -> <init>
+    0:2:java.util.Map access$getFUNCTION_CLASSES$cp():10:10 -> a
+    0:2:java.lang.Class getJClass():10 -> a
+    0:13:boolean equals(java.lang.Object):91:91 -> equals
+    14:23:boolean kotlin.jvm.internal.Intrinsics.areEqual(java.lang.Object,java.lang.Object):169:169 -> equals
+    14:23:boolean equals(java.lang.Object):91 -> equals
+    0:8:int hashCode():94:94 -> hashCode
+    0:23:java.lang.String toString():97:97 -> toString
+kotlin.jvm.internal.DefaultConstructorMarker -> kotlin.jvm.internal.e:
+# {"id":"sourceFile","fileName":"DefaultConstructorMarker.java"}
+kotlin.jvm.internal.FunctionReference -> kotlin.jvm.internal.f:
+# {"id":"sourceFile","fileName":"FunctionReference.java"}
+    1:3:void <init>(int,java.lang.Object,java.lang.Class,java.lang.String,java.lang.String,int):50:50 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;)V"}
+    4:5:void <init>(int,java.lang.Object,java.lang.Class,java.lang.String,java.lang.String,int):51:51 -> <init>
+    6:8:void <init>(int,java.lang.Object,java.lang.Class,java.lang.String,java.lang.String,int):52:52 -> <init>
+    0:5:kotlin.reflect.KFunction kotlin.jvm.internal.Reflection.function(kotlin.jvm.internal.FunctionReference):90:90 -> computeReflected
+    0:5:kotlin.reflect.KCallable computeReflected():69 -> computeReflected
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ll/b;"}
+    4:8:boolean equals(java.lang.Object):105:105 -> equals
+    9:10:boolean equals(java.lang.Object):106:106 -> equals
+    11:24:boolean equals(java.lang.Object):108:108 -> equals
+    25:50:boolean equals(java.lang.Object):109:109 -> equals
+    51:64:boolean equals(java.lang.Object):112:112 -> equals
+    65:81:boolean equals(java.lang.Object):113:113 -> equals
+    82:85:boolean equals(java.lang.Object):115:115 -> equals
+    86:95:boolean equals(java.lang.Object):116:116 -> equals
+    0:2:int getArity():57:57 -> getArity
+    1:1:kotlin.reflect.KCallable getReflected():12:12 -> getReflected
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ll/b;"}
+    2:2:kotlin.reflect.KCallable kotlin.jvm.internal.CallableReference.getReflected():96:96 -> getReflected
+    2:2:kotlin.reflect.KFunction getReflected():63 -> getReflected
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ll/e;"}
+    3:3:kotlin.reflect.KFunction getReflected():63:63 -> getReflected
+    4:4:kotlin.reflect.KCallable kotlin.jvm.internal.CallableReference.getReflected():98:98 -> getReflected
+    4:4:kotlin.reflect.KFunction getReflected():63 -> getReflected
+    5:5:void kotlin.jvm.KotlinReflectionNotSupportedError.<init>():11:11 -> getReflected
+    5:5:kotlin.reflect.KCallable kotlin.jvm.internal.CallableReference.getReflected():98 -> getReflected
+    5:5:kotlin.reflect.KFunction getReflected():63 -> getReflected
+    6:6:kotlin.reflect.KCallable kotlin.jvm.internal.CallableReference.getReflected():98:98 -> getReflected
+    6:6:kotlin.reflect.KFunction getReflected():63 -> getReflected
+    0:38:int hashCode():123:123 -> hashCode
+    0:8:boolean isExternal():81:81 -> isExternal
+    0:8:boolean isInfix():93:93 -> isInfix
+    0:8:boolean isInline():75:75 -> isInline
+    0:8:boolean isOperator():87:87 -> isOperator
+    0:8:boolean isSuspend():99:99 -> isSuspend
+    0:5:java.lang.String toString():128:128 -> toString
+    6:10:java.lang.String toString():130:130 -> toString
+    11:32:java.lang.String toString():134:134 -> toString
+    33:49:java.lang.String toString():136:136 -> toString
+kotlin.jvm.internal.FunctionReferenceImpl -> kotlin.jvm.internal.g:
+# {"id":"sourceFile","fileName":"FunctionReferenceImpl.java"}
+kotlin.jvm.internal.Intrinsics -> kotlin.jvm.internal.h:
+# {"id":"sourceFile","fileName":"Intrinsics.java"}
+    java.lang.Object[] kotlin.jvm.internal.CollectionToArray.EMPTY -> a
+    1:5:void kotlin.jvm.internal.CollectionToArray.<clinit>():14:14 -> <clinit>
+    8:12:boolean areEqual(java.lang.Object,java.lang.Object):169:169 -> a
+    3:11:void throwJavaNpe():45:45 -> b
+    3:11:void checkNotNull(java.lang.Object):25 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/io/Serializable;)V"}
+    3:17:void checkNotNullExpressionValue(java.lang.Object,java.lang.String):93:93 -> c
+    2:3:void throwParameterIsNullNPE(java.lang.String):140:140 -> d
+    2:3:void checkNotNullParameter(java.lang.Object,java.lang.String):131 -> d
+    4:11:java.lang.String createParameterIsNullExceptionMessage(java.lang.String):144:144 -> d
+    4:11:void throwParameterIsNullNPE(java.lang.String):140 -> d
+    4:11:void checkNotNullParameter(java.lang.Object,java.lang.String):131 -> d
+    12:18:java.lang.String createParameterIsNullExceptionMessage(java.lang.String):146:146 -> d
+    12:18:void throwParameterIsNullNPE(java.lang.String):140 -> d
+    12:18:void checkNotNullParameter(java.lang.Object,java.lang.String):131 -> d
+    19:33:java.lang.String createParameterIsNullExceptionMessage(java.lang.String):149:149 -> d
+    19:33:void throwParameterIsNullNPE(java.lang.String):140 -> d
+    19:33:void checkNotNullParameter(java.lang.Object,java.lang.String):131 -> d
+    34:48:java.lang.String createParameterIsNullExceptionMessage(java.lang.String):151:151 -> d
+    34:48:void throwParameterIsNullNPE(java.lang.String):140 -> d
+    34:48:void checkNotNullParameter(java.lang.Object,java.lang.String):131 -> d
+    49:50:java.lang.String createParameterIsNullExceptionMessage(java.lang.String):153:153 -> d
+    49:50:void throwParameterIsNullNPE(java.lang.String):140 -> d
+    49:50:void checkNotNullParameter(java.lang.Object,java.lang.String):131 -> d
+    51:54:java.lang.String createParameterIsNullExceptionMessage(java.lang.String):154:154 -> d
+    51:54:void throwParameterIsNullNPE(java.lang.String):140 -> d
+    51:54:void checkNotNullParameter(java.lang.Object,java.lang.String):131 -> d
+    55:58:java.lang.String createParameterIsNullExceptionMessage(java.lang.String):155:155 -> d
+    55:58:void throwParameterIsNullNPE(java.lang.String):140 -> d
+    55:58:void checkNotNullParameter(java.lang.Object,java.lang.String):131 -> d
+    59:88:java.lang.String createParameterIsNullExceptionMessage(java.lang.String):157:157 -> d
+    59:88:void throwParameterIsNullNPE(java.lang.String):140 -> d
+    59:88:void checkNotNullParameter(java.lang.Object,java.lang.String):131 -> d
+    89:96:void throwParameterIsNullNPE(java.lang.String):140:140 -> d
+    89:96:void checkNotNullParameter(java.lang.Object,java.lang.String):131 -> d
+    0:5:java.lang.Throwable sanitizeStackTrace(java.lang.Throwable):253:253 -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/RuntimeException;)V"}
+    6:9:java.lang.Throwable sanitizeStackTrace(java.lang.Throwable,java.lang.String):257:257 -> e
+    6:9:java.lang.Throwable sanitizeStackTrace(java.lang.Throwable):253 -> e
+    10:14:java.lang.Throwable sanitizeStackTrace(java.lang.Throwable,java.lang.String):258:258 -> e
+    10:14:java.lang.Throwable sanitizeStackTrace(java.lang.Throwable):253 -> e
+    15:32:java.lang.Throwable sanitizeStackTrace(java.lang.Throwable,java.lang.String):262:262 -> e
+    15:32:java.lang.Throwable sanitizeStackTrace(java.lang.Throwable):253 -> e
+    33:38:java.lang.Throwable sanitizeStackTrace(java.lang.Throwable,java.lang.String):267:267 -> e
+    33:38:java.lang.Throwable sanitizeStackTrace(java.lang.Throwable):253 -> e
+    39:42:java.lang.Throwable sanitizeStackTrace(java.lang.Throwable,java.lang.String):268:268 -> e
+    39:42:java.lang.Throwable sanitizeStackTrace(java.lang.Throwable):253 -> e
+    0:3:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection):89:89 -> f
+    4:8:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection):90:90 -> f
+    9:12:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection):91:91 -> f
+    13:19:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection):92:92 -> f
+    20:27:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection):25:25 -> f
+    28:33:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection):97:97 -> f
+    34:38:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection):98:98 -> f
+    39:59:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection):99:99 -> f
+    60:65:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection):105:105 -> f
+    66:74:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection):108:108 -> f
+    75:80:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection):110:110 -> f
+    81:88:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection):26:26 -> f
+    0:2:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):36:36 -> g
+    3:10:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):111:111 -> g
+    11:17:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):40:40 -> g
+    18:21:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):113:113 -> g
+    22:27:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):114:114 -> g
+    28:33:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):40:40 -> g
+    34:56:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):45:45 -> g
+    57:62:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):119:119 -> g
+    63:67:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):120:120 -> g
+    68:89:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):121:121 -> g
+    90:95:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):127:127 -> g
+    96:104:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):130:130 -> g
+    105:112:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):132:132 -> g
+    113:115:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):49:49 -> g
+    116:123:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):52:52 -> g
+    124:134:void throwJavaNpe(java.lang.String):50:50 -> g
+    124:134:void checkNotNull(java.lang.Object,java.lang.String):31 -> g
+    124:134:java.lang.Object[] kotlin.jvm.internal.CollectionToArray.toArray(java.util.Collection,java.lang.Object[]):45 -> g
+kotlin.jvm.internal.PackageReference -> kotlin.jvm.internal.i:
+# {"id":"sourceFile","fileName":"PackageReference.kt"}
+    java.lang.Class jClass -> a
+    5:7:void <init>(java.lang.Class,java.lang.String):10:10 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Class;)V"}
+    8:10:void <init>(java.lang.Class,java.lang.String):12:12 -> <init>
+    0:2:java.lang.Class getJClass():12:12 -> a
+    0:5:boolean equals(java.lang.Object):19:19 -> equals
+    6:7:java.lang.Class getJClass():12:12 -> equals
+    6:7:boolean equals(java.lang.Object):19 -> equals
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    8:19:boolean equals(java.lang.Object):19:19 -> equals
+    0:6:int hashCode():22:22 -> hashCode
+    0:23:java.lang.String toString():25:25 -> toString
+kotlin.jvm.internal.Reflection -> kotlin.jvm.internal.j:
+# {"id":"sourceFile","fileName":"Reflection.java"}
+    kotlin.jvm.internal.ReflectionFactory factory -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lkotlin/jvm/internal/k;"}
+    1:6:void <clinit>():26:26 -> <clinit>
+    7:16:void <clinit>():27:27 -> <clinit>
+    17:18:void <clinit>():34:34 -> <clinit>
+    19:21:void kotlin.jvm.internal.ReflectionFactory.<init>():14:14 -> <clinit>
+    19:21:void <clinit>():34 -> <clinit>
+    22:24:void <clinit>():34:34 -> <clinit>
+kotlin.jvm.internal.ReflectionFactory -> kotlin.jvm.internal.k:
+# {"id":"sourceFile","fileName":"ReflectionFactory.java"}
+kotlin.math.MathKt__MathJVMKt -> R8$$REMOVED$$CLASS$$20:
+# {"id":"sourceFile","fileName":"MathJVM.kt"}
+kotlin.ranges.IntProgression -> k.a:
+# {"id":"sourceFile","fileName":"Progressions.kt"}
+    int first -> a
+    int last -> b
+    int step -> c
+    0:8:void <init>(int,int,int):78:78 -> <init>
+    9:10:void <init>(int,int,int):93:93 -> <init>
+    11:16:void <init>(int,int,int):98:98 -> <init>
+    17:19:void <init>(int,int,int):103:103 -> <init>
+    20:27:void <init>(int,int,int):87:87 -> <init>
+    28:35:void <init>(int,int,int):86:86 -> <init>
+    0:11:kotlin.collections.IntIterator iterator():105:105 -> iterator
+    0:11:java.util.Iterator iterator():78 -> iterator
+kotlin.ranges.IntProgression$Companion -> R8$$REMOVED$$CLASS$$21:
+# {"id":"sourceFile","fileName":"Progressions.kt"}
+kotlin.ranges.IntProgressionIterator -> k.b:
+# {"id":"sourceFile","fileName":"ProgressionIterators.kt"}
+    int step -> a
+    int finalElement -> b
+    boolean hasNext -> c
+    int next -> d
+    0:2:void kotlin.collections.IntIterator.<init>():36:36 -> <init>
+    0:2:void <init>(int,int,int):39 -> <init>
+    3:4:void <init>(int,int,int):39:39 -> <init>
+    5:17:void <init>(int,int,int):40:40 -> <init>
+    18:23:void <init>(int,int,int):41:41 -> <init>
+    24:26:void <init>(int,int,int):42:42 -> <init>
+    0:2:boolean hasNext():44:44 -> hasNext
+    0:1:int nextInt():47:47 -> next
+    0:1:java.lang.Object kotlin.collections.IntIterator.next():36 -> next
+    2:5:int nextInt():48:48 -> next
+    2:5:java.lang.Object kotlin.collections.IntIterator.next():36 -> next
+    6:10:int nextInt():49:49 -> next
+    6:10:java.lang.Object kotlin.collections.IntIterator.next():36 -> next
+    11:13:int nextInt():50:50 -> next
+    11:13:java.lang.Object kotlin.collections.IntIterator.next():36 -> next
+    14:19:int nextInt():49:49 -> next
+    14:19:java.lang.Object kotlin.collections.IntIterator.next():36 -> next
+    20:24:int nextInt():53:53 -> next
+    20:24:java.lang.Object kotlin.collections.IntIterator.next():36 -> next
+    25:29:java.lang.Object kotlin.collections.IntIterator.next():36:36 -> next
+    0:7:void kotlin.collections.IntIterator.remove():0:0 -> remove
+kotlin.ranges.IntRange -> k.c:
+# {"id":"sourceFile","fileName":"PrimitiveRanges.kt"}
+    kotlin.ranges.IntRange EMPTY -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lk/c;"}
+    0:3:void <clinit>():85:85 -> <clinit>
+    4:6:void <init>(int,int):53:53 -> <clinit>
+    4:6:void <clinit>():85 -> <clinit>
+    7:9:void <clinit>():85:85 -> <clinit>
+    0:18:boolean equals(java.lang.Object):75:75 -> equals
+    19:20:boolean equals(java.lang.Object):76:76 -> equals
+    21:22:int kotlin.ranges.IntProgression.getFirst():93:93 -> equals
+    21:22:boolean equals(java.lang.Object):76 -> equals
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    23:36:boolean equals(java.lang.Object):76:76 -> equals
+    0:15:int hashCode():79:79 -> hashCode
+    0:9:boolean isEmpty():72:72 -> isEmpty
+    0:24:java.lang.String toString():81:81 -> toString
+kotlin.ranges.IntRange$Companion -> R8$$REMOVED$$CLASS$$22:
+# {"id":"sourceFile","fileName":"PrimitiveRanges.kt"}
+kotlin.ranges.RangesKt___RangesKt -> R8$$REMOVED$$CLASS$$23:
+# {"id":"sourceFile","fileName":"_Ranges.kt"}
+kotlin.reflect.KAnnotatedElement -> l.a:
+# {"id":"sourceFile","fileName":"KAnnotatedElement.kt"}
+    java.util.List getAnnotations() -> getAnnotations
+kotlin.reflect.KCallable -> l.b:
+# {"id":"sourceFile","fileName":"KCallable.kt"}
+    java.lang.Object call(java.lang.Object[]) -> call
+    java.lang.Object callBy(java.util.Map) -> callBy
+    java.util.List getParameters() -> getParameters
+    kotlin.reflect.KType getReturnType() -> getReturnType
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ll/f;"}
+    java.util.List getTypeParameters() -> getTypeParameters
+    kotlin.reflect.KVisibility getVisibility() -> getVisibility
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ll/g;"}
+    boolean isAbstract() -> isAbstract
+    boolean isFinal() -> isFinal
+    boolean isOpen() -> isOpen
+kotlin.reflect.KClass -> l.c:
+# {"id":"sourceFile","fileName":"KClass.kt"}
+kotlin.reflect.KDeclarationContainer -> l.d:
+# {"id":"sourceFile","fileName":"KDeclarationContainer.kt"}
+kotlin.reflect.KFunction -> l.e:
+# {"id":"sourceFile","fileName":"KFunction.kt"}
+    boolean isExternal() -> isExternal
+    boolean isInfix() -> isInfix
+    boolean isInline() -> isInline
+    boolean isOperator() -> isOperator
+    boolean isSuspend() -> isSuspend
+kotlin.reflect.KType -> l.f:
+# {"id":"sourceFile","fileName":"KType.kt"}
+kotlin.reflect.KVisibility -> l.g:
+# {"id":"sourceFile","fileName":"KVisibility.kt"}
+    kotlin.reflect.KVisibility[] $VALUES -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"[Ll/g;"}
+    0:1:void <clinit>():34:34 -> <clinit>
+    2:7:void <init>(java.lang.String,int):29:29 -> <clinit>
+    2:7:void <clinit>():34 -> <clinit>
+    8:9:void <clinit>():39:39 -> <clinit>
+    10:15:void <init>(java.lang.String,int):29:29 -> <clinit>
+    10:15:void <clinit>():39 -> <clinit>
+    16:17:void <clinit>():44:44 -> <clinit>
+    18:23:void <init>(java.lang.String,int):29:29 -> <clinit>
+    18:23:void <clinit>():44 -> <clinit>
+    24:25:void <clinit>():49:49 -> <clinit>
+    26:31:void <init>(java.lang.String,int):29:29 -> <clinit>
+    26:31:void <clinit>():49 -> <clinit>
+    32:35:kotlin.reflect.KVisibility[] $values():0:0 -> <clinit>
+    32:35:void <clinit>():49 -> <clinit>
+    36:38:void <clinit>():49:49 -> <clinit>
+    0:8:kotlin.reflect.KVisibility valueOf(java.lang.String):0:0 -> valueOf
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;)Ll/g;"}
+    0:8:kotlin.reflect.KVisibility[] values():0:0 -> values
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()[Ll/g;"}
+kotlin.text.CharsKt__CharJVMKt -> R8$$REMOVED$$CLASS$$24:
+# {"id":"sourceFile","fileName":"CharJVM.kt"}
+kotlin.text.Charsets -> m.a:
+# {"id":"sourceFile","fileName":"Charsets.kt"}
+    java.nio.charset.Charset US_ASCII -> a
+    0:10:void <clinit>():29:29 -> <clinit>
+    11:19:void <clinit>():36:36 -> <clinit>
+    20:28:void <clinit>():42:42 -> <clinit>
+    29:37:void <clinit>():48:48 -> <clinit>
+    38:48:void <clinit>():55:55 -> <clinit>
+    49:58:void <clinit>():61:61 -> <clinit>
+kotlin.text.StringsKt__IndentKt -> m.b:
+# {"id":"sourceFile","fileName":"Indent.kt"}
+kotlin.text.StringsKt__RegexExtensionsJVMKt -> m.c:
+# {"id":"sourceFile","fileName":"RegexExtensionsJVM.kt"}
+kotlin.text.StringsKt__RegexExtensionsKt -> m.d:
+# {"id":"sourceFile","fileName":"RegexExtensions.kt"}
+kotlin.text.StringsKt__StringBuilderJVMKt -> m.e:
+# {"id":"sourceFile","fileName":"StringBuilderJVM.kt"}
+kotlin.text.StringsKt__StringBuilderKt -> m.f:
+# {"id":"sourceFile","fileName":"StringBuilder.kt"}
+kotlin.text.StringsKt__StringNumberConversionsJVMKt -> m.g:
+# {"id":"sourceFile","fileName":"StringNumberConversionsJVM.kt"}
+kotlin.text.StringsKt__StringsKt -> m.h:
+# {"id":"sourceFile","fileName":"Strings.kt"}
+    7:16:boolean isBlank(java.lang.CharSequence):1631:1631 -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;)Z"}
+    17:33:boolean kotlin.text.CharsKt__CharJVMKt.isWhitespace(char):103:103 -> f
+    17:33:boolean isBlank(java.lang.CharSequence):312 -> f
+    0:9:java.lang.String substringAfterLast(java.lang.String,char,java.lang.String):0:0 -> g
+    0:9:java.lang.String substringAfterLast$default(java.lang.String,char,java.lang.String,int,java.lang.Object):495 -> g
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;)Ljava/lang/String;"}
+    10:17:int getLastIndex(java.lang.CharSequence):391:391 -> g
+    10:17:int lastIndexOf$default(java.lang.CharSequence,char,int,boolean,int,java.lang.Object):1128 -> g
+    10:17:java.lang.String substringAfterLast(java.lang.String,char,java.lang.String):496 -> g
+    10:17:java.lang.String substringAfterLast$default(java.lang.String,char,java.lang.String,int,java.lang.Object):495 -> g
+    18:27:int lastIndexOf(java.lang.CharSequence,char,int,boolean):1132:1132 -> g
+    18:27:int lastIndexOf$default(java.lang.CharSequence,char,int,boolean,int,java.lang.Object):1128 -> g
+    18:27:java.lang.String substringAfterLast(java.lang.String,char,java.lang.String):496 -> g
+    18:27:java.lang.String substringAfterLast$default(java.lang.String,char,java.lang.String,int,java.lang.Object):495 -> g
+    28:41:java.lang.String substringAfterLast(java.lang.String,char,java.lang.String):497:497 -> g
+    28:41:java.lang.String substringAfterLast$default(java.lang.String,char,java.lang.String,int,java.lang.Object):495 -> g
+    5:20:java.lang.CharSequence trim(java.lang.CharSequence):1600:1600 -> h
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;)Ljava/lang/CharSequence;"}
+    21:24:java.lang.CharSequence trim(java.lang.CharSequence):1605:1605 -> h
+    25:56:boolean kotlin.text.CharsKt__CharJVMKt.isWhitespace(char):103:103 -> h
+    25:56:java.lang.CharSequence trim(java.lang.CharSequence):177 -> h
+    57:61:java.lang.CharSequence trim(java.lang.CharSequence):1620:1620 -> h

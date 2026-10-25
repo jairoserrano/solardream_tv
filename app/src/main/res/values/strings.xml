@@ -1,0 +1,71 @@
+<resources>
+    <!-- App & General -->
+    <string name="app_name">Solar Dream</string>
+    <string name="screensaver_description">Real-time solar and grid energy flow screensaver for Android TV</string>
+
+    <!-- Settings Dialog -->
+    <string name="dialog_settings_title">Solar Dream Settings</string>
+    <string name="dialog_dtu_ip_message">Enter your solar inverter local IP address (Hoymiles, SolaX, Deye, SunSpec):</string>
+    <string name="dialog_save">Save</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_open_screensaver">Screensaver Settings</string>
+    <string name="dialog_scan_network">Scan Network</string>
+    <string name="dialog_scanning_network">Scanning local network for inverters…</string>
+    <string name="dialog_inverters_found">Discovered Inverters</string>
+    <string name="dialog_no_inverters_found">No solar inverters found automatically. Please enter the IP manually.</string>
+    <string name="toast_ip_saved">IP saved: %1$s</string>
+    <string name="toast_screensaver_unavailable">Screensaver settings are not directly available on this device.</string>
+
+    <!-- Header -->
+    <string name="header_tagline">Your home\'s energy</string>
+    <string name="status_live">LIVE · LOCAL DTU</string>
+    <string name="status_connecting">CONNECTING TO DTU</string>
+    <string name="status_no_connection">OFFLINE</string>
+    <string name="label_last_reading">LAST READING</string>
+
+    <!-- Nodes -->
+    <string name="node_solar">SOLAR PRODUCTION</string>
+    <string name="node_house">HOME CONSUMPTION</string>
+    <string name="node_grid">POWER GRID</string>
+
+    <!-- Node States -->
+    <string name="state_waiting">STANDBY</string>
+    <string name="state_generating">GENERATING POWER</string>
+    <string name="state_idle">IDLE</string>
+    <string name="state_exporting">EXPORTING SURPLUS</string>
+    <string name="state_importing">IMPORTING POWER</string>
+    <string name="state_no_exchange">NO EXCHANGE</string>
+    <string name="state_no_meter">NO METER</string>
+    <string name="label_instant_power">INSTANT POWER</string>
+
+    <!-- Flow Directions -->
+    <string name="flow_to_home">TO HOME</string>
+    <string name="flow_to_grid">TO GRID</string>
+
+    <!-- Footer & Hero Card -->
+    <string name="hero_searching">Searching for your home\'s energy</string>
+    <string name="hero_waiting_dtu">Waiting for DTU</string>
+    <string name="today_solar_title">SOLAR ENERGY · TODAY</string>
+    <string name="title_export">Your home is sharing energy</string>
+    <string name="title_import_grid_only">The grid is powering your home</string>
+    <string name="title_import_mixed">Sun and grid are powering your home</string>
+    <string name="title_balance">Your energy is in balance</string>
+    <string name="title_realtime">Your production in real time</string>
+
+    <!-- Grid labels for subtitle -->
+    <string name="grid_label_export">Grid (exporting)</string>
+    <string name="grid_label_import">Grid (importing)</string>
+    <string name="grid_label_idle">Grid</string>
+    <string name="grid_label_unknown">Grid</string>
+
+    <!-- Local badge -->
+    <string name="badge_local_connection">LOCAL CONNECTION</string>
+    <string name="badge_no_cloud">No cloud dependency</string>
+
+    <!-- Daily Timeline -->
+    <string name="timeline_title">TODAY\'S TIMELINE</string>
+    <string name="timeline_solar">Solar</string>
+    <string name="timeline_house">House</string>
+    <string name="timeline_import">Import</string>
+    <string name="timeline_accumulating">Collecting today\'s timeline…</string>
+</resources>

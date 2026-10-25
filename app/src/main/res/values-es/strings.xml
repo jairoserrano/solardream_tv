@@ -1,0 +1,71 @@
+<resources>
+    <!-- App & General -->
+    <string name="app_name">Solar Dream</string>
+    <string name="screensaver_description">Visualizador en tiempo real del flujo de energía solar y red eléctrica para Android TV</string>
+
+    <!-- Settings Dialog -->
+    <string name="dialog_settings_title">Configuración de Solar Dream</string>
+    <string name="dialog_dtu_ip_message">Introduce la IP local de tu inversor o DTU (Hoymiles, SolaX, Deye, SunSpec):</string>
+    <string name="dialog_save">Guardar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_open_screensaver">Ajustes de Salvapantallas</string>
+    <string name="dialog_scan_network">Escanear Red</string>
+    <string name="dialog_scanning_network">Buscando inversores en la red local…</string>
+    <string name="dialog_inverters_found">Inversores detectados</string>
+    <string name="dialog_no_inverters_found">No se encontraron inversores automáticamente. Introduce la IP manualmente.</string>
+    <string name="toast_ip_saved">IP guardada: %1$s</string>
+    <string name="toast_screensaver_unavailable">Los ajustes de protector de pantalla no están disponibles directamente en este dispositivo.</string>
+
+    <!-- Header -->
+    <string name="header_tagline">La energía de tu hogar</string>
+    <string name="status_live">EN VIVO · DTU LOCAL</string>
+    <string name="status_connecting">CONECTANDO AL DTU</string>
+    <string name="status_no_connection">SIN CONEXIÓN</string>
+    <string name="label_last_reading">ÚLTIMA LECTURA</string>
+
+    <!-- Nodes -->
+    <string name="node_solar">PRODUCCIÓN SOLAR</string>
+    <string name="node_house">CONSUMO DEL HOGAR</string>
+    <string name="node_grid">RED ELÉCTRICA</string>
+
+    <!-- Node States -->
+    <string name="state_waiting">EN ESPERA</string>
+    <string name="state_generating">GENERANDO ENERGÍA</string>
+    <string name="state_idle">EN REPOSO</string>
+    <string name="state_exporting">EXPORTANDO EXCEDENTE</string>
+    <string name="state_importing">IMPORTANDO ENERGÍA</string>
+    <string name="state_no_exchange">SIN INTERCAMBIO</string>
+    <string name="state_no_meter">SIN MEDIDOR</string>
+    <string name="label_instant_power">POTENCIA INSTANTÁNEA</string>
+
+    <!-- Flow Directions -->
+    <string name="flow_to_home">HACIA TU HOGAR</string>
+    <string name="flow_to_grid">HACIA LA RED</string>
+
+    <!-- Footer & Hero Card -->
+    <string name="hero_searching">Buscando la energía de tu hogar</string>
+    <string name="hero_waiting_dtu">Esperando al DTU</string>
+    <string name="today_solar_title">ENERGÍA SOLAR · HOY</string>
+    <string name="title_export">Tu hogar comparte energía</string>
+    <string name="title_import_grid_only">La red mantiene tu hogar en marcha</string>
+    <string name="title_import_mixed">El sol y la red alimentan tu hogar</string>
+    <string name="title_balance">Tu energía está en equilibrio</string>
+    <string name="title_realtime">Tu producción, en tiempo real</string>
+
+    <!-- Grid labels for subtitle -->
+    <string name="grid_label_export">Red (exporta)</string>
+    <string name="grid_label_import">Red (importa)</string>
+    <string name="grid_label_idle">Red</string>
+    <string name="grid_label_unknown">Red</string>
+
+    <!-- Local badge -->
+    <string name="badge_local_connection">CONEXIÓN LOCAL</string>
+    <string name="badge_no_cloud">Sin depender de la nube</string>
+
+    <!-- Daily Timeline -->
+    <string name="timeline_title">LÍNEA DE TIEMPO DEL DÍA</string>
+    <string name="timeline_solar">Solar</string>
+    <string name="timeline_house">Consumo</string>
+    <string name="timeline_import">Importación</string>
+    <string name="timeline_accumulating">Acumulando datos del día…</string>
+</resources>

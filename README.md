@@ -39,7 +39,7 @@ Antes de recibir datos se muestra el estado de conexión. Tras **3 fallos consec
 - Android SDK Platform-Tools (`adb`) para instalar y configurar la TV.
 - Acceso a los repositorios de dependencias durante la primera compilación.
 
-El proyecto incluye Gradle Wrapper **8.9**, Android Gradle Plugin **8.7.3** y Kotlin **2.0.21**. La configuración Android es `minSdk = 31` (Android 12), `targetSdk = 34` y `compileSdk = 35`.
+El proyecto incluye Gradle Wrapper **8.9**, Android Gradle Plugin **8.7.3** y Kotlin **2.0.21**. La configuración Android es `minSdk = 31` (Android 12), `targetSdk = 36` (Android 16) y `compileSdk = 36`.
 
 La TV debe permitir protectores de pantalla mediante `DreamService` y alcanzar el DTU por la red local. La compatibilidad del protocolo con otros modelos o versiones de firmware requiere verificación.
 
@@ -59,6 +59,14 @@ En Linux o macOS:
 
 El APK de depuración se genera en `app/build/outputs/apk/debug/app-debug.apk`.
 
+Para generar el paquete firmado de producción (Android App Bundle) para Google Play:
+
+```powershell
+.\gradlew.bat :app:bundleRelease
+```
+
+El bundle se genera en `app/build/outputs/bundle/release/app-release.aab`. Para la guía completa de publicación, consulta [CHECKLIST_PUBLICACION.md](CHECKLIST_PUBLICACION.md).
+
 Las pruebas unitarias cubren CRC, codificación y lectura del protocolo, combinación de páginas, cliente TCP, normalización de energía, seguimiento de conexión y estados de presentación. Las pruebas de `DtuClient` utilizan sockets locales; el entorno de ejecución debe permitirlos. La apariencia y el comportamiento del protector requieren además comprobación en una TV.
 
 ## Instalación y configuración
@@ -75,21 +83,19 @@ Configura la dirección del DTU y selecciona SolarDream como protector de pantal
 
 ```powershell
 adb -s $tv shell settings put global solardream_dtu_host 192.168.1.60
-adb -s $tv shell settings put secure screensaver_components com.jairo.solardream/com.jairo.solardream.SolarDreamService
+adb -s $tv shell settings put secure screensaver_components dev.jairoserrano.solardream/dev.jairoserrano.solardream.SolarDreamService
 adb -s $tv shell settings put secure screensaver_enabled 1
 ```
 
-Si no se configura `solardream_dtu_host`, se utiliza la dirección predeterminada `192.168.88.16`. La dirección se lee al crear el servicio: después de cambiarla, sal del protector y vuelve a iniciarlo.
+Si no se configura `solardream_dtu_host`, se utiliza la dirección predeterminada `192.168.88.16`. También puedes abrir la app directamente desde el lanzador de tu TV (Google TV / Android TV) y presionar el botón **OK** o **Menú** de tu control remoto para cambiar la IP del DTU en pantalla.
 
-En la TV usada para la integración se pudo iniciar manualmente con:
+La app se puede iniciar como protector de pantalla o directamente como aplicación desde el lanzador del sistema:
 
 ```powershell
-adb -s $tv shell am start -n com.android.systemui/.Somnambulator
+adb -s $tv shell am start -n dev.jairoserrano.solardream/.MainActivity
 ```
 
-Ese componente pertenece al sistema y puede variar entre fabricantes. También puedes activar o previsualizar Solar Dream desde los ajustes de protector de pantalla de la TV, si están disponibles. El proyecto actualmente solo declara el servicio; no tiene una actividad de lanzamiento ni una pantalla de configuración.
-
-Para consultar el servicio y los avisos de comunicación:
+También puedes activar o previsualizar Solar Dream desde los ajustes de protector de pantalla de la TV. Para consultar el servicio y los avisos de comunicación:
 
 ```powershell
 adb -s $tv shell dumpsys dreams
