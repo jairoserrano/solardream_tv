@@ -41,6 +41,12 @@ class MainActivity : Activity() {
                 or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
         )
 
+        val demoScene = intent.getIntExtra("demo_scene", 0)
+        if (demoScene > 0) {
+            applyDemoScene(demoScene)
+            return
+        }
+
         flowView = FlowView(this)
         setContentView(flowView)
 
@@ -49,8 +55,36 @@ class MainActivity : Activity() {
         }
     }
 
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        setIntent(intent)
+        val demoScene = intent?.getIntExtra("demo_scene", 0) ?: 0
+        if (demoScene > 0) {
+            poller?.stop()
+            poller = null
+            applyDemoScene(demoScene)
+        }
+    }
+
+    private fun applyDemoScene(demoScene: Int) {
+        val isEnglish = demoScene in 7..8
+        val ctx = if (isEnglish) {
+            val conf = resources.configuration
+            conf.setLocale(java.util.Locale.ENGLISH)
+            createConfigurationContext(conf)
+        } else this
+        flowView = FlowView(ctx)
+        setContentView(flowView)
+        val state = dev.jairoserrano.solardream.ui.DemoScenes.getScene(demoScene, isEnglish)
+        flowView.render(state)
+        if (demoScene == 5) {
+            mainHandler.postDelayed({ showSettingsDialog() }, 400)
+        }
+    }
+
     override fun onStart() {
         super.onStart()
+        if (intent.getIntExtra("demo_scene", 0) > 0) return
         startPoller()
     }
 
@@ -88,7 +122,7 @@ class MainActivity : Activity() {
             setPadding(48, 36, 48, 36)
         }
 
-        AlertDialog.Builder(this)
+        val dialog = AlertDialog.Builder(this)
             .setTitle(getString(R.string.dialog_settings_title))
             .setMessage(getString(R.string.dialog_dtu_ip_message))
             .setView(input)
@@ -105,7 +139,10 @@ class MainActivity : Activity() {
                 scanNetworkForInverters()
             }
             .setNegativeButton(getString(R.string.dialog_cancel), null)
-            .show()
+            .create()
+
+        dialog.window?.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN)
+        dialog.show()
     }
 
     @Suppress("DEPRECATION")
